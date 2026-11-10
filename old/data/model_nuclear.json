@@ -1,0 +1,326 @@
+{
+  "_meta": {
+    "verified_at": "2026-10-09",
+    "scope": "Effect of keeping vs closing Spanish nuclear plants on wholesale price (pool, EUR/MWh) and household bill. Evidence base for 'La factura en juego | Elecciones 29N'.",
+    "method_note": "Only figures found in the cited sources. Where a value is derived by us (e.g. % converted to EUR/MWh, EUR/MWh converted to EUR/household/year) it is flagged 'derived'.",
+    "total_fleet_mw": 7398.77,
+    "total_fleet_source": "https://www.miteco.gob.es/es/energia/nuclear/centrales/espana.html"
+  },
+  "calendar": [
+    {
+      "plant": "Almaraz I",
+      "mw": 1049.40,
+      "closure_date": "2030-06-08",
+      "previous_closure_date": "2027-11-01",
+      "window": "2027-2030",
+      "source": "Orden TED/864/2026 de 12 agosto (BOE 14/08/2026, BOE-A-2026-17756) https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17756 ; MW: MITECO",
+      "notes": "Extension ~31 months. Physical-protection authorisation still expires 2027-11-01 and must be renewed separately (elboletin.com, 14/08/2026)."
+    },
+    {
+      "plant": "Almaraz II",
+      "mw": 1044.50,
+      "closure_date": "2030-06-08",
+      "previous_closure_date": "2028-10-31",
+      "window": "2027-2030",
+      "source": "Orden TED/864/2026 (BOE-A-2026-17756); MW: MITECO",
+      "notes": "Extension ~19 months. Physical-protection authorisation expires 2028-10-31, renewal pending."
+    },
+    {
+      "plant": "Ascó I",
+      "mw": 1032.50,
+      "closure_date": "2030-10-01",
+      "window": "2027-2030",
+      "source": "Autorización BOE fixing cese 1/10/2030 (as reported by elboletin.com 14/08/2026 https://www.elboletin.com/la-central-nuclear-de-almaraz-seguira-hasta-2030-y-el-gobierno-blinda-el-calendario-nuclear/ ); CSN table; MW: MITECO",
+      "notes": "Unchanged by Orden TED/864/2026."
+    },
+    {
+      "plant": "Cofrentes",
+      "mw": 1092.02,
+      "closure_date": "2030-11-30",
+      "window": "2027-2030",
+      "source": "elboletin.com 14/08/2026 (authorisation until 30/11/2030); AleaSoft 18/08/2026; MW: MITECO",
+      "notes": "PP Senate motion (28/09/2026) asks for its extension."
+    },
+    {
+      "plant": "Ascó II",
+      "mw": 1027.21,
+      "closure_date": "2032-09",
+      "window": "2031-2035",
+      "source": "Foro Nuclear 27/03/2025 (Ascó II 'septiembre de 2032') https://www.foronuclear.org/actualidad/noticias/la-seguridad-de-suministro-electrico-en-cataluna-en-riesgo-sin-la-nuclear/ ; MW: MITECO",
+      "notes": "Current licence only to 2031-10-01; needs renewal to reach 2032 calendar date (elboletin.com)."
+    },
+    {
+      "plant": "Vandellòs II",
+      "mw": 1087.14,
+      "closure_date": "2035-02",
+      "window": "2031-2035",
+      "source": "Foro Nuclear 27/03/2025 ('febrero de 2035'); MW: MITECO",
+      "notes": "Current licence only to 2030-07-26; needs renewal to reach 2035 (elboletin.com)."
+    },
+    {
+      "plant": "Trillo",
+      "mw": 1066.00,
+      "closure_date": "2035-05",
+      "window": "2031-2035",
+      "source": "Year 2035: elboletin.com / democrata.es (14/08/2026). Month: Foro Nuclear 15/01/2026 states calendar runs 'entre noviembre de 2027 y mayo de 2035' and Vandellòs II is Feb 2035, so last closure (Trillo) = May 2035. MW: MITECO",
+      "notes": "Month inferred from Foro Nuclear wording, not from a BOE text."
+    }
+  ],
+  "calendar_summary": {
+    "inside_2027_2030": {
+      "plants": ["Almaraz I", "Almaraz II", "Ascó I", "Cofrentes"],
+      "mw": 4218.42,
+      "key_fact": "After Orden TED/864/2026 NO reactor closes in 2027, 2028 or 2029. All four 2027-2030 closures are concentrated in Jun-Nov 2030 (>4,000 MW in under 6 months, AleaSoft 18/08/2026)."
+    },
+    "inside_2031_2035": {
+      "plants": ["Ascó II", "Vandellòs II", "Trillo"],
+      "mw": 3180.35
+    },
+    "implication_for_model": "During 2027-2029 the fleet runs fully under BOTH the PSOE calendar and the PP/Vox derogation, so the price difference between programmes is ~0 in those years; it appears only from mid-2030 (Almaraz) / Q4 2030 (Ascó I, Cofrentes) and becomes structural 2031-2035."
+  },
+  "price_impact_studies": [
+    {
+      "source": "PwC - 'Precio de la electricidad y energía nuclear: ¿Cómo impacta el parque nuclear en el precio de la electricidad?' (static, no-nuclear today)",
+      "url": "https://www.pwc.es/es/publicaciones/energia/decalogo-energia-nuclear/precio-electricidad-energia-nuclear.html",
+      "year": 2025,
+      "funded_by": "PwC; commissioner not disclosed in sources found. Disseminated by Foro Nuclear (industry association); author partner Óscar Barrero published it on Endesa's corporate blog. Treat as INDUSTRY-ALIGNED. Called 'sesgo deliberado' by energias-renovables.com (17/08/2026).",
+      "scenario": "Whole fleet (7.4 GW) absent in current system; CCGT replaces almost all lost output",
+      "impact_eur_mwh": 37,
+      "period": "Counterfactual on 2024 market (Civismo cites +36.8 EUR/MWh 'si el cierre ya se hubiera producido en 2024')",
+      "notes": "+23% bill for domestic and SMEs, +35% industry; ~8,000 MEUR/yr consumer saving; +21 MtCO2/yr."
+    },
+    {
+      "source": "PwC - same report, forward-looking PNIEC scenario",
+      "url": "https://www.foronuclear.org/actualidad/noticias/mantener-las-centrales-nucleares-espanolas-permitiria-reducir-la-factura-electrica-segun-pwc/",
+      "year": 2025,
+      "funded_by": "As above (industry-aligned)",
+      "scenario": "Full closure per calendar, even with PNIEC targets met",
+      "impact_eur_mwh": 13,
+      "period": "'a futuro' (post-closure horizon, ~2035). An earlier PwC paper (contexto-nuclear-espana.pdf, 2024) gives 13.26 EUR/MWh for accelerated closure.",
+      "notes": "This 13 EUR/MWh figure is the one quoted by the PP in its Senate motion (Nov 2025)."
+    },
+    {
+      "source": "PwC - Catalonia nuclear report",
+      "url": "https://www.foronuclear.org/actualidad/noticias/la-seguridad-de-suministro-electrico-en-cataluna-en-riesgo-sin-la-nuclear/",
+      "year": 2025,
+      "funded_by": "PwC; disseminated by Foro Nuclear (industry-aligned)",
+      "scenario": "Closure of national + Catalan fleet vs 10-year extension",
+      "impact_eur_mwh": "13-30",
+      "period": "Future (post-closure)",
+      "notes": "Extending national and Catalan fleet 10 years saves at least 5,400 MEUR on Catalonia's electricity bill (figure used by Feijóo, Apr 2026)."
+    },
+    {
+      "source": "PwC - Almaraz under 2025-26 gas crisis",
+      "url": "https://elperiodicodelaenergia.com/pwc-advierte-de-que-el-cierre-de-almaraz-habria-encarecido-la-electricidad-hasta-47-mwh-en-plena-crisis-del-gas/",
+      "year": 2026,
+      "funded_by": "PwC (industry-aligned, see above)",
+      "scenario": "Almaraz (2.1 GW) closed in 2025, gas price shock from Middle East conflict; CCGT replacement",
+      "impact_eur_mwh": 47,
+      "period": "2025 counterfactual; also +22 EUR/MWh for whole fleet absent in a similar gas-crisis scenario projected to 2035",
+      "notes": "+24% bill households/small firms, +35% industry; ~8,800 MEUR/yr; ~144 EUR/yr per average domestic consumer. Stress-case only; 47 EUR/MWh for 2 GW is not consistent with 37 EUR/MWh for 7.4 GW unless gas price assumptions differ strongly."
+    },
+    {
+      "source": "Monitor Deloitte - 'La contribución de la energía nuclear a la competitividad industrial en España' (presented at CEOE)",
+      "url": "https://www.foronuclear.org/actualidad/noticias/mantener-el-parque-nuclear-permitira-a-la-industria-ahorrar-1-400-millones-de-euros-anuales-segun-monitor-deloitte/",
+      "year": 2026,
+      "funded_by": "Commissioner not disclosed in sources found; presented 15/01/2026 at CEOE with Foro Nuclear president on panel. Treat as INDUSTRY-ALIGNED.",
+      "scenario": "Extension of whole fleet beyond 2035 calendar vs closure",
+      "impact_eur_mwh": "14 (market) / 15 (incl. battery-cost timing effect)",
+      "period": "2035",
+      "notes": "1,400 MEUR/yr saving for industry; -14 MtCO2/yr in 2035."
+    },
+    {
+      "source": "Natalia Fabra (UC3M / EnergyEconLab), 'The Price and Emissions Effects of Extending Nuclear Lifetimes: Evidence from Spain' (CEPR DP21053; SERIEs 2026)",
+      "url": "https://energyeconlab.com/nuclear-lifetime-extensions-lower-prices-today-higher-prices-tomorrow-evidence-from-spain/",
+      "year": 2026,
+      "funded_by": "ERC Advanced Grant ENERGY-IN-TRANSITION (EU public research funding). Author is a board member of Red Eléctrica (Redeia) and Government adviser (elEconomista) - flag potential perceived alignment with Government.",
+      "scenario": "Almaraz extension to 2030 vs closure 2027-28; static (investment unchanged) vs dynamic (renewables/storage shortfall)",
+      "impact_eur_mwh": "Reported in %: static extension LOWERS wholesale prices 4-8% (PNIEC baseline) or 5-11% (Feasible baseline) in 2028-2031. With 25% investment shortfall extension RAISES prices +4.5-7.2% (PNIEC) / +1.6-2.4% (Feasible) in 2028-30 and ~+10-11% in 2031; with 50% shortfall +15-20% pre-2031, up to +46.8% beyond 2031. Derived at a 60 EUR/MWh pool: static ~2.4-6.6 EUR/MWh lower with extension; dynamic 25% case ~1-4 EUR/MWh higher 2028-30, ~6 EUR/MWh higher 2031.",
+      "period": "2028-2031+",
+      "notes": "Peer-reviewed academic. Static effect consistent in sign with industry studies; dynamic result reverses sign. Investment response is not empirically pinned down (author's caveat)."
+    },
+    {
+      "source": "URJC Cátedra de Transición Energética (Eloy Sanz) + UPC (Víctor García Carrasco), 'Cierre nuclear y transición energética: el caso de Almaraz'",
+      "url": "https://www.europapress.es/sociedad/noticia-prolongar-vida-almaraz-sumaria-mas-3800-millones-euros-factura-luz-greenpeace-20260203111458.html",
+      "year": 2026,
+      "funded_by": "COMMISSIONED BY GREENPEACE (anti-nuclear NGO). Flag as advocacy-funded.",
+      "scenario": "Almaraz extension to 2030 vs closure per 2019 calendar; hourly simulations 2026-2033 with investment response",
+      "impact_eur_mwh": "Extension: transitory price relief 2028-2030 (not quantified in coverage), then +5.5 EUR/MWh in 2033 (63.5 vs 58 EUR/MWh, +9.5%)",
+      "period": "2028-2033",
+      "notes": "Cumulative bill overcost of extension up to 3,831 MEUR to 2033; renewable coverage 2030 falls 65.8% -> 59.3%; up to 26,130 MEUR lost renewable/storage investment; +5.8-12.3 MtCO2. Renewables cover 96.4% of Almaraz output after closure."
+    },
+    {
+      "source": "MITECO - Orden TED/864/2026 (sensitivity analysis on PNIEC)",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17756",
+      "year": 2026,
+      "funded_by": "Government (official)",
+      "scenario": "Almaraz extension to June 2030 vs PNIEC scenario",
+      "impact_eur_mwh": "Not quantified in EUR/MWh",
+      "period": "2030",
+      "notes": "-7% CCGT generation and -1.4% renewable generation in 2030 vs PNIEC. Extension 'contribuye de manera coyuntural a moderar la exposición ... a picos de precios' of gas. Enresa: no extra waste costs passed to consumers or budget."
+    },
+    {
+      "source": "MITECO / PNIEC 2023-2030 impact analysis, as stated by Minister Sara Aagesen (EFE interview)",
+      "url": "https://valenciaplaza.com/valenciaplaza/nacional/aagesen-cree-que-el-cierre-del-parque-nuclear-no-disparara-los-precios-energeticos-ni-pondra-en-riesgo-el-suministro",
+      "year": 2025,
+      "funded_by": "Government (official)",
+      "scenario": "PNIEC target scenario including nuclear closure calendar",
+      "impact_eur_mwh": "No delta published; projected pool level 'inferiores a 40 EUR/MWh incluso con el cierre del parque nuclear'",
+      "period": "2030",
+      "notes": "Government position: closure does not drive prices up. Fedea (Rodríguez, Sept 2025) and NERA/Fedea (Jan 2026) consider PNIEC wind and storage targets unattainable, which undermines this level."
+    },
+    {
+      "source": "Fedea - Diego Rodríguez, 'Sobre el cierre de la central nuclear de Almaraz'",
+      "url": "https://fedea.net/sobre-el-cierre-de-la-central-nuclear-de-almaraz/",
+      "year": 2025,
+      "funded_by": "Fedea (think tank funded by large Spanish companies incl. banks and utilities - not verified in this research; flag as unverified)",
+      "scenario": "Almaraz closure 2027-28 vs delay, realistic (non-PNIEC) 2030 system",
+      "impact_eur_mwh": "Not quantified in the summary; concludes closure raises supply costs and emissions (more CCGT than PNIEC assumes)",
+      "period": "To 2030",
+      "notes": "Recommends at least delaying the 2019 calendar. Replacing nuclear tax with charges would raise domestic bills ~1%."
+    },
+    {
+      "source": "AleaSoft Energy Forecasting",
+      "url": "https://aleasoft.com/es/almaraz-gas-precios-vertidos-renovables-mercado-capacidad/",
+      "year": 2026,
+      "funded_by": "Independent forecasting firm (commercial)",
+      "scenario": "Theoretical ceiling: Almaraz 2025 net output (14,752 GWh) fully replaced by CCGT",
+      "impact_eur_mwh": "Not a pool delta. CCGT fuel+CO2 cost 139-153 EUR/MWh at gas 60 EUR/MWh and CO2 82 EUR/t; 27-30 TWh extra gas, 1,620-1,800 MEUR/yr",
+      "period": "2026 conditions",
+      "notes": "Explicitly an upper bound, not a forecast. Also flags extension raises curtailment risk."
+    },
+    {
+      "source": "Aurora Energy Research",
+      "url": "https://elperiodicodelaenergia.com/la-prorroga-de-almaraz-amenaza-con-aumentar-un-40-la-energia-renovable-desperdiciada-en-espana/",
+      "year": 2026,
+      "funded_by": "Commercial consultancy",
+      "scenario": "Almaraz extension",
+      "impact_eur_mwh": "Not quantified in EUR/MWh in coverage",
+      "period": "2030",
+      "notes": "Extension could raise wind and solar curtailment by ~40% in 2030."
+    },
+    {
+      "source": "OBS Business School - 'El sector energético en España, hacia una descarbonización sostenible'",
+      "url": "https://www.elespanol.com/invertia/empresas/energia/20260212/cierre-almaraz-encarecera-coste-vida-hogares-pymes-obs-business-school/1003744127460_0.html",
+      "year": 2026,
+      "funded_by": "Business school (own report)",
+      "scenario": "Closure of Almaraz I (~1 GW)",
+      "impact_eur_mwh": "Not stated",
+      "period": "n/a",
+      "notes": "LOW RELIABILITY: claims +23% households/SMEs, +35% industry and 150-250 EUR/yr per household for Almaraz I alone - same percentages PwC gives for the WHOLE fleet. Do not use as input."
+    }
+  ],
+  "household_eur_per_year": [
+    {
+      "source": "PwC 2026 (Almaraz, gas crisis)",
+      "value": "~144 EUR/yr per average domestic consumer for +47 EUR/MWh",
+      "url": "https://elperiodicodelaenergia.com/pwc-advierte-de-que-el-cierre-de-almaraz-habria-encarecido-la-electricidad-hasta-47-mwh-en-plena-crisis-del-gas/",
+      "notes": "Implies ~3.06 EUR/yr per household per 1 EUR/MWh (derived)."
+    },
+    {
+      "source": "PwC 2025 (whole fleet)",
+      "value": "+23% domestic bill for +37 EUR/MWh",
+      "url": "https://www.pwc.es/es/publicaciones/energia/decalogo-energia-nuclear/precio-electricidad-energia-nuclear.html"
+    },
+    {
+      "source": "OBS Business School 2026",
+      "value": "150-250 EUR/yr per household/SME (Almaraz I)",
+      "url": "https://www.elespanol.com/invertia/empresas/energia/20260212/cierre-almaraz-encarecera-coste-vida-hogares-pymes-obs-business-school/1003744127460_0.html",
+      "notes": "Low reliability, see above."
+    },
+    {
+      "source": "URJC/UPC for Greenpeace 2026",
+      "value": "Extension = up to 3,831 MEUR cumulative overcost on household+SME bills to 2033 (no per-household figure)",
+      "url": "https://www.europapress.es/sociedad/noticia-prolongar-vida-almaraz-sumaria-mas-3800-millones-euros-factura-luz-greenpeace-20260203111458.html"
+    },
+    {
+      "source": "Conversion rule for our model (derived)",
+      "value": "1 EUR/MWh on pool ~= 3.0-3.6 EUR/yr per household before taxes (consumption 250-300 kWh/month = 3.0-3.6 MWh/yr per eniplenitude.es); add IEE 5.11% and IVA 21% for final bill. PwC's 144 EUR / 47 EUR/MWh cross-checks at ~3.06.",
+      "url": "https://eniplenitude.es/blog/energia/consumo-medio-de-luz-por-vivienda-en-Espana/"
+    }
+  ],
+  "range_eur_mwh": {
+    "definition": "Pool price effect of KEEPING the whole fleet (7.4 GW) operating vs closing per calendar, structural years 2031-2035. Positive = keeping lowers the pool (household saves). Not applicable to 2027-2029 (no closures in either scenario).",
+    "low": -5.5,
+    "central": 6.5,
+    "high": 15,
+    "stress_gas_crisis": "22-37 (PwC: +22 EUR/MWh in 2035 gas-crisis scenario; +37 EUR/MWh static counterfactual on 2024 market)",
+    "per_gw_static_eur_mwh": "~1.2-2.0 EUR/MWh per GW kept (derived: PwC 13 / 7.4 GW = 1.8; Deloitte 14-15 / 7.4 GW = 1.9-2.0; Fabra static Almaraz 2.4-6.6 / 2.09 GW = 1.1-3.2)",
+    "method": "LOW = URJC/UPC (Greenpeace-funded) 2033 result scaled as-is (+5.5 EUR/MWh HIGHER price if Almaraz is kept, via crowded-out renewables) - the dynamic case where keeping costs money; Fabra's 25%-shortfall case gives the same sign (~+6 EUR/MWh in 2031). HIGH = industry-aligned forward estimates with PNIEC renewables (PwC 13, Deloitte 14-15 EUR/MWh in 2035). CENTRAL = our judgement: midpoint of Fabra's static Almaraz effect scaled to the full fleet (~1.4 EUR/MWh/GW x 7.4 GW = ~10) haircut by ~1/3 for partial investment crowding-out reported by Fabra and Aurora, ~= 6.5 EUR/MWh; also ~half of the industry PNIEC figure. Government (PNIEC) publishes no delta and says pool <40 EUR/MWh even with closure, consistent with the low end. Stress case shown separately; do not use as base.",
+    "household_translation_central": "6.5 EUR/MWh x ~3.3 MWh/yr ~= 21 EUR/yr pre-tax (~27 EUR/yr incl. IEE+IVA) per household in 2031-2035 (derived). Range: approx -18 to +50 EUR/yr pre-tax."
+  },
+  "party_claims": [
+    {
+      "party": "PP",
+      "date": "2025-11 (Senate motion to repeal calendar, sent to Congress)",
+      "claim": "El cierre nuclear supondrá un aumento del precio de la electricidad a futuro de 13 euros el megavatio hora, y multiplicará por seis las emisiones de CO2 y el consumo de gas.",
+      "quantified": true,
+      "underlying_source": "PwC (industry-aligned) PNIEC scenario",
+      "url": "https://www.regiondigital.com/noticias/economia/420662-el-senado-remite-al-congreso-derogar-el-calendario-de-cierre-nuclear-promovida-por-el-pp.html"
+    },
+    {
+      "party": "PP (Feijóo)",
+      "date": "2026-04-28",
+      "claim": "Mantener todas las centrales para 'no disparar la factura de la luz'; 'en Cataluña se estima que alargar la vida útil de las centrales en 10 años ahorraría 5.400 millones de euros al sistema eléctrico'.",
+      "quantified": true,
+      "underlying_source": "PwC Catalonia report",
+      "url": "https://www.larazon.es/economia/feijoo-defiende-mantener-todas-centrales-nucleares-apagon-razones-ideologicas-que-encarecera-luz_2026042869f0cf8c6a56d80bba757da7.html"
+    },
+    {
+      "party": "PP",
+      "date": "2026-08-14 / 2026-09-21 / 2026-09-28",
+      "claim": "Almaraz extension is a 'mini prórroga'; demands urgent cancellation of the whole closure calendar; anti-blackout plan proposes repealing the 2035 calendar and removing nuclear taxes; Senate motion for Cofrentes extension.",
+      "quantified": false,
+      "url": "https://www.elespanol.com/invertia/empresas/energia/20260921/plan-antiapagones-pp-quitar-impuestos-nuclear-alargar-vida-util-pantanos-control-renovable/1003744388362_0.html"
+    },
+    {
+      "party": "Vox",
+      "date": "2026-08-22 (Figaredo) ; 2026-05-29 (Senate vote with PP, UPN)",
+      "claim": "Celebrates Almaraz extension and demands stopping closure of the rest of the fleet; voted in Senate to repeal calendar 'de forma inmediata'.",
+      "quantified": false,
+      "notes": "No 2026 Vox statement quantifying the bill effect (% or EUR/MWh) was found.",
+      "url": "https://labandera.es/figaredo-vox-celebra-la-prorroga-de-almaraz-y-exige-frenar-el-cierre-del-resto-de-nucleares/"
+    },
+    {
+      "party": "PSOE / Government (MITECO)",
+      "date": "2026-08-14 (Orden TED/864/2026); 2025-03-29 (Aagesen)",
+      "claim": "Almaraz extension moderates exposure to gas price spikes 'de manera coyuntural', -7% CCGT output in 2030, no extra cost to consumers; rest of calendar and 2035 end-date unchanged. Aagesen: PNIEC prices 'inferiores a 40 EUR/MWh incluso con el cierre del parque nuclear'.",
+      "quantified": "partially (price level, not delta)",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-17756"
+    },
+    {
+      "party": "Sumar",
+      "date": "2026-08-14",
+      "claim": "Extending nuclear 'impone a la sociedad costes y riesgos inaceptables, además de encarecer el precio de la energía'; extension 'hipoteca a la ciudadanía'.",
+      "quantified": false,
+      "notes": "Aligned with Greenpeace/URJC figure (3,831 MEUR) but no direct Sumar quantification found.",
+      "url": "https://elpais.com/economia/2026-08-14/sumar-rechaza-la-prorroga-de-la-planta-de-almaraz-y-acusa-al-psoe-de-incumplir-los-acuerdos.html"
+    },
+    {
+      "party": "Podemos",
+      "date": null,
+      "claim": "No 2026 quantified statement on nuclear and bill found in this research.",
+      "quantified": false,
+      "url": null
+    },
+    {
+      "party": "Non-party (Iberdrola chairman Sánchez Galán, FT, Mar 2025)",
+      "date": "2025-03",
+      "claim": "Closing nuclear would cause a sudden energy price increase of more than 25%.",
+      "quantified": true,
+      "notes": "Plant owner - interested party.",
+      "url": "https://valenciaplaza.com/valenciaplaza/nacional/aagesen-cree-que-el-cierre-del-parque-nuclear-no-disparara-los-precios-energeticos-ni-pondra-en-riesgo-el-suministro"
+    }
+  ],
+  "caveats": [
+    "With Almaraz extended to 8 June 2030, no reactor closes in 2027-2029; the PSOE vs PP/Vox difference in the 2027-2030 legislature is limited to H2 2030 (Almaraz from June, Ascó I from October, Cofrentes from December). Bill effects of 'derogating the calendar' are essentially a 2031-2035 (next-next legislature) story.",
+    "Ascó II (licence to 2031-10-01) and Vandellòs II (licence to 2030-07-26) need licence renewals even to reach the calendar dates; owners must request them, so 'keeping' also depends on utilities' economics (nuclear tax, Enresa fee ~11 EUR/MWh), not only on law.",
+    "Studies with large pro-nuclear effects (PwC, Deloitte) are industry-aligned and mostly static (replacement by CCGT); studies with negative effects (URJC/UPC) are Greenpeace-commissioned and rely on assumed investment crowding-out. The only independent academic study (Fabra, ERC-funded) shows both signs depending on the investment response.",
+    "Most estimates concern Almaraz (2.1 GW) only; scaling linearly to 7.4 GW is an approximation and ignores the dynamic effects.",
+    "Results depend heavily on gas and CO2 prices: PwC gas-crisis numbers (47 EUR/MWh for Almaraz, 22 EUR/MWh in 2035) are stress cases.",
+    "Percent results (Fabra, URJC) were converted to EUR/MWh using a ~58-60 EUR/MWh pool level; conversions are ours (derived).",
+    "Government (MITECO/PNIEC) never published a quantified pool delta for closure vs keeping; only a price level (<40 EUR/MWh) and generation shares.",
+    "Fedea's funding structure and the commissioner of the PwC and Deloitte reports were not verified in sources; flagged accordingly.",
+    "Household conversion uses 3.0-3.6 MWh/yr consumption; actual pass-through depends on tariff (PVPC passes pool immediately; fixed-price free-market contracts pass it with lag)."
+  ]
+}

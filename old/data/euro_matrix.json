@@ -1,0 +1,968 @@
+{
+ "_meta": {
+  "bill_model_status": "TERMOMETRO",
+  "baseline_unverified": [],
+  "note": "effect < 0 = risparmio annuo vs legge 1/1/2027; None = senza cifra (—)"
+ },
+ "baseline": {
+  "iva_luz_pct": 21.0,
+  "iva_gas_pct": 21.0,
+  "iee_pct": 5.11269632,
+  "bono_dto_vulnerable_pct": 35.0,
+  "tur_without_cap_pct": 45,
+  "tur_applied_pct": 15,
+  "tur_cn_gap": 0.02051412
+ },
+ "cells": {
+  "PSOE|impuestos_factura|hogar_tipo": {
+   "effect": 0.0,
+   "level": 2,
+   "flags": [
+    "expira_antes_2027"
+   ],
+   "aplazado_eur": null,
+   "y2028_eur": 0.0,
+   "ref_eur": 1424.78,
+   "new_eur": 1424.78,
+   "used": [
+    {
+     "question": "iva_luz",
+     "value": 10,
+     "level": 2,
+     "evidence": [
+      "psoe-impuestos_factura-20260929-a",
+      "psoe-impuestos_factura-20260929-b",
+      "psoe-impuestos_factura-20260326-a"
+     ],
+     "value_note": "RDL 25/2026: IVA de la luz al 10 % en noviembre y diciembre de 2026 solo si el IPC eléctrico sube más de 15 puntos interanual",
+     "expired": true
+    },
+    {
+     "question": "iva_gas",
+     "value": 10,
+     "level": 2,
+     "evidence": [
+      "psoe-impuestos_factura-20260929-b",
+      "psoe-impuestos_factura-20260326-a"
+     ],
+     "value_note": "RDL 25/2026: IVA del gas natural al 10 % en noviembre y diciembre de 2026 solo si el IPC del gas sube más de 15 puntos interanual",
+     "expired": true
+    },
+    {
+     "question": "impuesto_electrico",
+     "value": 0.5,
+     "level": 2,
+     "evidence": [
+      "psoe-impuestos_factura-20260929-b",
+      "psoe-impuestos_factura-20260320-a"
+     ],
+     "value_note": "RDL 25/2026: IEE del 5,11 % al 0,5 % solo si el IPC eléctrico supera en 15 puntos el del año anterior",
+     "expired": true
+    }
+   ]
+  },
+  "PSOE|impuestos_factura|hogar_vulnerable": {
+   "effect": 0.0,
+   "level": 2,
+   "flags": [
+    "expira_antes_2027"
+   ],
+   "aplazado_eur": null,
+   "y2028_eur": 0.0,
+   "ref_eur": 1244.69,
+   "new_eur": 1244.69,
+   "used": [
+    {
+     "question": "iva_luz",
+     "value": 10,
+     "level": 2,
+     "evidence": [
+      "psoe-impuestos_factura-20260929-a",
+      "psoe-impuestos_factura-20260929-b",
+      "psoe-impuestos_factura-20260326-a"
+     ],
+     "value_note": "RDL 25/2026: IVA de la luz al 10 % en noviembre y diciembre de 2026 solo si el IPC eléctrico sube más de 15 puntos interanual",
+     "expired": true
+    },
+    {
+     "question": "iva_gas",
+     "value": 10,
+     "level": 2,
+     "evidence": [
+      "psoe-impuestos_factura-20260929-b",
+      "psoe-impuestos_factura-20260326-a"
+     ],
+     "value_note": "RDL 25/2026: IVA del gas natural al 10 % en noviembre y diciembre de 2026 solo si el IPC del gas sube más de 15 puntos interanual",
+     "expired": true
+    },
+    {
+     "question": "impuesto_electrico",
+     "value": 0.5,
+     "level": 2,
+     "evidence": [
+      "psoe-impuestos_factura-20260929-b",
+      "psoe-impuestos_factura-20260320-a"
+     ],
+     "value_note": "RDL 25/2026: IEE del 5,11 % al 0,5 % solo si el IPC eléctrico supera en 15 puntos el del año anterior",
+     "expired": true
+    }
+   ]
+  },
+  "PSOE|bono_social|hogar_vulnerable": {
+   "effect": -38.59,
+   "level": 2,
+   "flags": [],
+   "aplazado_eur": null,
+   "y2028_eur": 0.0,
+   "ref_eur": 800.63,
+   "new_eur": 762.04,
+   "used": [
+    {
+     "question": "bono_prorroga",
+     "value": 42.5,
+     "level": 2,
+     "evidence": [
+      "psoe-bono_social-20260929-x",
+      "psoe-bono_social-20260320-x",
+      "psoe-bono_social-20260326-a",
+      "psoe-bono_social-20260226-a"
+     ],
+     "value_note": "descuentos vigentes (RDL 7/2026); no hay aún anuncio formal para 2027",
+     "expired": false
+    }
+   ]
+  },
+  "PSOE|tur_gas|hogar_tipo": {
+   "effect": 0.0,
+   "level": 1,
+   "flags": [
+    "aplazado"
+   ],
+   "aplazado_eur": 126.52,
+   "y2028_eur": 0.0,
+   "ref_eur": 444.07,
+   "new_eur": 444.07,
+   "used": [
+    {
+     "question": "tur_tope",
+     "value": 15,
+     "level": 1,
+     "evidence": [
+      "psoe-tur_gas-20260929-x",
+      "psoe-tur_gas-20260929-x2",
+      "psoe-precio_luz_gas-20260929-a"
+     ],
+     "value_note": "tope fijado por el Gobierno en el RDL 25/2026 (revisión de octubre de 2026)",
+     "expired": false
+    }
+   ]
+  },
+  "PSOE|tur_gas|hogar_vulnerable": {
+   "effect": 0.0,
+   "level": 1,
+   "flags": [
+    "aplazado"
+   ],
+   "aplazado_eur": 126.52,
+   "y2028_eur": 0.0,
+   "ref_eur": 444.07,
+   "new_eur": 444.07,
+   "used": [
+    {
+     "question": "tur_tope",
+     "value": 15,
+     "level": 1,
+     "evidence": [
+      "psoe-tur_gas-20260929-x",
+      "psoe-tur_gas-20260929-x2",
+      "psoe-precio_luz_gas-20260929-a"
+     ],
+     "value_note": "tope fijado por el Gobierno en el RDL 25/2026 (revisión de octubre de 2026)",
+     "expired": false
+    }
+   ]
+  },
+  "PSOE|precio_luz_gas|hogar_tipo": {
+   "effect": 0.0,
+   "level": 0,
+   "flags": [
+    "sin_propuesta"
+   ],
+   "used": [],
+   "ref_eur": 1424.78,
+   "new_eur": 1424.78,
+   "answer_hint": null
+  },
+  "PP|impuestos_factura|hogar_tipo": {
+   "effect": -167.02,
+   "level": 1,
+   "flags": [
+    "duracion_no_definida"
+   ],
+   "aplazado_eur": null,
+   "y2028_eur": 0.0,
+   "ref_eur": 1424.78,
+   "new_eur": 1257.76,
+   "used": [
+    {
+     "question": "iva_luz",
+     "value": 10,
+     "level": 1,
+     "evidence": [
+      "pp-impuestos_factura-20260927-a",
+      "pp-impuestos_factura-20260924-a",
+      "pp-impuestos_factura-20260929-a",
+      "pp-impuestos_factura-20260627-a",
+      "pp-impuestos_factura-20260309-a"
+     ],
+     "value_note": "IVA de la energía al 10 %; en septiembre de 2026 no fija plazo, pero en marzo lo ligaba a la crisis y en junio lo proponía por 3 meses ampliables",
+     "expired": false
+    },
+    {
+     "question": "iva_gas",
+     "value": 10,
+     "level": 1,
+     "evidence": [
+      "pp-impuestos_factura-20260929-a",
+      "pp-impuestos_factura-20260927-a",
+      "pp-impuestos_factura-20260309-a"
+     ],
+     "value_note": "IVA del gas al 10 % («hay que aplicar esto al gas y a la electricidad»); sin plazo declarado en septiembre de 2026",
+     "expired": false
+    },
+    {
+     "question": "impuesto_electrico",
+     "value": 0.5,
+     "level": 2,
+     "evidence": [
+      "pp-impuestos_factura-20260323-a",
+      "pp-impuestos_factura-20260627-a"
+     ],
+     "value_note": "Respalda la reducción del IEE al 0,5 % del RDL 7/2026 (art. 40); en junio pide rebajar «IVA y/o impuestos especiales» por 3 meses ampliables",
+     "expired": false
+    }
+   ]
+  },
+  "PP|impuestos_factura|hogar_vulnerable": {
+   "effect": -143.47,
+   "level": 1,
+   "flags": [
+    "duracion_no_definida"
+   ],
+   "aplazado_eur": null,
+   "y2028_eur": 0.0,
+   "ref_eur": 1244.69,
+   "new_eur": 1101.23,
+   "used": [
+    {
+     "question": "iva_luz",
+     "value": 10,
+     "level": 1,
+     "evidence": [
+      "pp-impuestos_factura-20260927-a",
+      "pp-impuestos_factura-20260924-a",
+      "pp-impuestos_factura-20260929-a",
+      "pp-impuestos_factura-20260627-a",
+      "pp-impuestos_factura-20260309-a"
+     ],
+     "value_note": "IVA de la energía al 10 %; en septiembre de 2026 no fija plazo, pero en marzo lo ligaba a la crisis y en junio lo proponía por 3 meses ampliables",
+     "expired": false
+    },
+    {
+     "question": "iva_gas",
+     "value": 10,
+     "level": 1,
+     "evidence": [
+      "pp-impuestos_factura-20260929-a",
+      "pp-impuestos_factura-20260927-a",
+      "pp-impuestos_factura-20260309-a"
+     ],
+     "value_note": "IVA del gas al 10 % («hay que aplicar esto al gas y a la electricidad»); sin plazo declarado en septiembre de 2026",
+     "expired": false
+    },
+    {
+     "question": "impuesto_electrico",
+     "value": 0.5,
+     "level": 2,
+     "evidence": [
+      "pp-impuestos_factura-20260323-a",
+      "pp-impuestos_factura-20260627-a"
+     ],
+     "value_note": "Respalda la reducción del IEE al 0,5 % del RDL 7/2026 (art. 40); en junio pide rebajar «IVA y/o impuestos especiales» por 3 meses ampliables",
+     "expired": false
+    }
+   ]
+  },
+  "PP|bono_social|hogar_vulnerable": {
+   "effect": -154.36,
+   "level": 1,
+   "flags": [
+    "propuesta_antigua"
+   ],
+   "aplazado_eur": null,
+   "y2028_eur": 0.0,
+   "ref_eur": 800.63,
+   "new_eur": 646.26,
+   "used": [
+    {
+     "question": "bono_ampliar_descuento",
+     "value": 65,
+     "level": 1,
+     "evidence": [
+      "pp-bono_social-20250308-x"
+     ],
+     "value_note": "cifra propia del PP (PNL de marzo de 2025)",
+     "expired": false
+    }
+   ]
+  },
+  "PP|tur_gas|hogar_tipo": {
+   "effect": 126.52,
+   "level": 2,
+   "flags": [
+    "rechaza",
+    "sin_tope"
+   ],
+   "aplazado_eur": null,
+   "y2028_eur": -126.52,
+   "ref_eur": 444.07,
+   "new_eur": 570.58,
+   "used": [
+    {
+     "question": "tur_tope",
+     "value": 45,
+     "level": 2,
+     "evidence": [],
+     "value_note": "Crítico con el tope: lo considera una «hipoteca tarifaria»; propone rebajas de impuestos y subvenciones directas (según AI Overview de Google, pendiente de fuente primaria)",
+     "expired": false
+    }
+   ]
+  },
+  "PP|tur_gas|hogar_vulnerable": {
+   "effect": 126.52,
+   "level": 2,
+   "flags": [
+    "rechaza",
+    "sin_tope"
+   ],
+   "aplazado_eur": null,
+   "y2028_eur": -126.52,
+   "ref_eur": 444.07,
+   "new_eur": 570.58,
+   "used": [
+    {
+     "question": "tur_tope",
+     "value": 45,
+     "level": 2,
+     "evidence": [],
+     "value_note": "Crítico con el tope: lo considera una «hipoteca tarifaria»; propone rebajas de impuestos y subvenciones directas (según AI Overview de Google, pendiente de fuente primaria)",
+     "expired": false
+    }
+   ]
+  },
+  "PP|precio_luz_gas|hogar_tipo": {
+   "effect": 0.0,
+   "level": 2,
+   "flags": [
+    "rechaza",
+    "referencia_2022"
+   ],
+   "aplazado_eur": null,
+   "y2028_eur": 0.0,
+   "ref_eur": 1424.78,
+   "new_eur": 1424.78,
+   "used": [
+    {
+     "question": "excepcion_iberica",
+     "value": 0,
+     "level": 2,
+     "evidence": [
+      "pp-precio_luz_gas-20260930-a"
+     ],
+     "value_note": "Votó en contra de intervenir y limitar el precio de la electricidad (30/9/2026)",
+     "expired": false
+    }
+   ]
+  },
+  "VOX|impuestos_factura|hogar_tipo": {
+   "effect": -239.47,
+   "level": 1,
+   "flags": [],
+   "aplazado_eur": null,
+   "y2028_eur": 0.0,
+   "ref_eur": 1424.78,
+   "new_eur": 1185.31,
+   "used": [
+    {
+     "question": "iva_luz",
+     "value": 4,
+     "level": 1,
+     "evidence": [
+      "vox-impuestos_factura-20260324-a",
+      "vox-impuestos_factura-20251125-a"
+     ],
+     "value_note": "«Rebaja permanente del IVA a la electricidad al 4 %»",
+     "expired": false
+    },
+    {
+     "question": "iva_gas",
+     "value": 4,
+     "level": 1,
+     "evidence": [
+      "vox-impuestos_factura-20251125-a"
+     ],
+     "value_note": "«IVA del 4% en luz, gas y agua» dentro de su plan fiscal estructural; la palabra «permanente» la usa solo para la electricidad",
+     "expired": false
+    },
+    {
+     "question": "impuesto_electrico",
+     "value": 0,
+     "level": 1,
+     "evidence": [
+      "vox-impuestos_factura-20260324-b",
+      "vox-impuestos_factura-20251125-b"
+     ],
+     "value_note": "Supresión total del impuesto especial sobre la electricidad (IEE = 0 %)",
+     "expired": false
+    }
+   ]
+  },
+  "VOX|impuestos_factura|hogar_vulnerable": {
+   "effect": -206.64,
+   "level": 1,
+   "flags": [],
+   "aplazado_eur": null,
+   "y2028_eur": 0.0,
+   "ref_eur": 1244.69,
+   "new_eur": 1038.05,
+   "used": [
+    {
+     "question": "iva_luz",
+     "value": 4,
+     "level": 1,
+     "evidence": [
+      "vox-impuestos_factura-20260324-a",
+      "vox-impuestos_factura-20251125-a"
+     ],
+     "value_note": "«Rebaja permanente del IVA a la electricidad al 4 %»",
+     "expired": false
+    },
+    {
+     "question": "iva_gas",
+     "value": 4,
+     "level": 1,
+     "evidence": [
+      "vox-impuestos_factura-20251125-a"
+     ],
+     "value_note": "«IVA del 4% en luz, gas y agua» dentro de su plan fiscal estructural; la palabra «permanente» la usa solo para la electricidad",
+     "expired": false
+    },
+    {
+     "question": "impuesto_electrico",
+     "value": 0,
+     "level": 1,
+     "evidence": [
+      "vox-impuestos_factura-20260324-b",
+      "vox-impuestos_factura-20251125-b"
+     ],
+     "value_note": "Supresión total del impuesto especial sobre la electricidad (IEE = 0 %)",
+     "expired": false
+    }
+   ]
+  },
+  "VOX|bono_social|hogar_vulnerable": {
+   "effect": 0.0,
+   "level": 0,
+   "flags": [
+    "sin_propuesta"
+   ],
+   "used": [],
+   "ref_eur": 800.63,
+   "new_eur": 800.63,
+   "answer_hint": "ambiguo"
+  },
+  "VOX|tur_gas|hogar_tipo": {
+   "effect": 126.52,
+   "level": 2,
+   "flags": [
+    "rechaza",
+    "sin_tope"
+   ],
+   "aplazado_eur": null,
+   "y2028_eur": -126.52,
+   "ref_eur": 444.07,
+   "new_eur": 570.58,
+   "used": [
+    {
+     "question": "tur_tope",
+     "value": 45,
+     "level": 2,
+     "evidence": [],
+     "value_note": "En contra de que el Estado altere los precios; propone eliminar tasas e impuestos (según AI Overview de Google, pendiente de fuente primaria)",
+     "expired": false
+    }
+   ]
+  },
+  "VOX|tur_gas|hogar_vulnerable": {
+   "effect": 126.52,
+   "level": 2,
+   "flags": [
+    "rechaza",
+    "sin_tope"
+   ],
+   "aplazado_eur": null,
+   "y2028_eur": -126.52,
+   "ref_eur": 444.07,
+   "new_eur": 570.58,
+   "used": [
+    {
+     "question": "tur_tope",
+     "value": 45,
+     "level": 2,
+     "evidence": [],
+     "value_note": "En contra de que el Estado altere los precios; propone eliminar tasas e impuestos (según AI Overview de Google, pendiente de fuente primaria)",
+     "expired": false
+    }
+   ]
+  },
+  "VOX|precio_luz_gas|hogar_tipo": {
+   "effect": 0.0,
+   "level": 2,
+   "flags": [
+    "rechaza",
+    "referencia_2022"
+   ],
+   "aplazado_eur": null,
+   "y2028_eur": 0.0,
+   "ref_eur": 1424.78,
+   "new_eur": 1424.78,
+   "used": [
+    {
+     "question": "excepcion_iberica",
+     "value": 0,
+     "level": 2,
+     "evidence": [
+      "vox-precio_luz_gas-20260929-a"
+     ],
+     "value_note": "En contra de intervenir los precios de la energía",
+     "expired": false
+    }
+   ]
+  },
+  "SUMAR|impuestos_factura|hogar_tipo": {
+   "effect": -167.02,
+   "level": 2,
+   "flags": [
+    "duracion_no_definida"
+   ],
+   "aplazado_eur": null,
+   "y2028_eur": 0.0,
+   "ref_eur": 1424.78,
+   "new_eur": 1257.76,
+   "used": [
+    {
+     "question": "iva_luz",
+     "value": 10,
+     "level": 2,
+     "evidence": [
+      "sumar-impuestos_factura-20260601-a",
+      "sumar-impuestos_factura-20260326-a",
+      "sumar-impuestos_factura-20260929-a"
+     ],
+     "value_note": "Pide recuperar la rebaja del RDL 7/2026 (IVA de la luz al 10 %) como medida anticrisis",
+     "expired": false
+    },
+    {
+     "question": "iva_gas",
+     "value": 10,
+     "level": 2,
+     "evidence": [
+      "sumar-impuestos_factura-20260601-a",
+      "sumar-impuestos_factura-20260326-a"
+     ],
+     "value_note": "Pide recuperar la rebaja del RDL 7/2026 (IVA del gas al 10 %) como medida anticrisis",
+     "expired": false
+    },
+    {
+     "question": "impuesto_electrico",
+     "value": 0.5,
+     "level": 2,
+     "evidence": [
+      "sumar-impuestos_factura-20260601-a"
+     ],
+     "value_note": "«Recupere las medidas que han decaído hoy»: entre ellas, el IEE al 0,5 % del RDL 7/2026",
+     "expired": false
+    }
+   ]
+  },
+  "SUMAR|impuestos_factura|hogar_vulnerable": {
+   "effect": -143.47,
+   "level": 2,
+   "flags": [
+    "duracion_no_definida"
+   ],
+   "aplazado_eur": null,
+   "y2028_eur": 0.0,
+   "ref_eur": 1244.69,
+   "new_eur": 1101.23,
+   "used": [
+    {
+     "question": "iva_luz",
+     "value": 10,
+     "level": 2,
+     "evidence": [
+      "sumar-impuestos_factura-20260601-a",
+      "sumar-impuestos_factura-20260326-a",
+      "sumar-impuestos_factura-20260929-a"
+     ],
+     "value_note": "Pide recuperar la rebaja del RDL 7/2026 (IVA de la luz al 10 %) como medida anticrisis",
+     "expired": false
+    },
+    {
+     "question": "iva_gas",
+     "value": 10,
+     "level": 2,
+     "evidence": [
+      "sumar-impuestos_factura-20260601-a",
+      "sumar-impuestos_factura-20260326-a"
+     ],
+     "value_note": "Pide recuperar la rebaja del RDL 7/2026 (IVA del gas al 10 %) como medida anticrisis",
+     "expired": false
+    },
+    {
+     "question": "impuesto_electrico",
+     "value": 0.5,
+     "level": 2,
+     "evidence": [
+      "sumar-impuestos_factura-20260601-a"
+     ],
+     "value_note": "«Recupere las medidas que han decaído hoy»: entre ellas, el IEE al 0,5 % del RDL 7/2026",
+     "expired": false
+    }
+   ]
+  },
+  "SUMAR|bono_social|hogar_vulnerable": {
+   "effect": -38.59,
+   "level": 2,
+   "flags": [],
+   "aplazado_eur": null,
+   "y2028_eur": 0.0,
+   "ref_eur": 800.63,
+   "new_eur": 762.04,
+   "used": [
+    {
+     "question": "bono_prorroga",
+     "value": 42.5,
+     "level": 2,
+     "evidence": [
+      "sumar-bono_social-20260326-a",
+      "sumar-bono_social-20260326-x",
+      "sumar-bono_social-20260309-x"
+     ],
+     "value_note": "descuentos vigentes que Sumar aprobó como socio de Gobierno y votó en el Congreso",
+     "expired": false
+    }
+   ]
+  },
+  "SUMAR|tur_gas|hogar_tipo": {
+   "effect": 0.0,
+   "level": 2,
+   "flags": [
+    "aplazado"
+   ],
+   "aplazado_eur": 126.52,
+   "y2028_eur": 0.0,
+   "ref_eur": 444.07,
+   "new_eur": 444.07,
+   "used": [
+    {
+     "question": "tur_tope",
+     "value": 15,
+     "level": 2,
+     "evidence": [
+      "psoe-tur_gas-20260929-x",
+      "sumar-carburantes-20260929-a"
+     ],
+     "value_note": "tope aprobado por el Gobierno de coalición del que forma parte Sumar; sin declaración propia sobre la TUR",
+     "expired": false
+    }
+   ]
+  },
+  "SUMAR|tur_gas|hogar_vulnerable": {
+   "effect": 0.0,
+   "level": 2,
+   "flags": [
+    "aplazado"
+   ],
+   "aplazado_eur": 126.52,
+   "y2028_eur": 0.0,
+   "ref_eur": 444.07,
+   "new_eur": 444.07,
+   "used": [
+    {
+     "question": "tur_tope",
+     "value": 15,
+     "level": 2,
+     "evidence": [
+      "psoe-tur_gas-20260929-x",
+      "sumar-carburantes-20260929-a"
+     ],
+     "value_note": "tope aprobado por el Gobierno de coalición del que forma parte Sumar; sin declaración propia sobre la TUR",
+     "expired": false
+    }
+   ]
+  },
+  "SUMAR|precio_luz_gas|hogar_tipo": {
+   "effect": -250.0,
+   "level": 2,
+   "flags": [
+    "referencia_2022"
+   ],
+   "aplazado_eur": null,
+   "y2028_eur": 0.0,
+   "ref_eur": 1424.78,
+   "new_eur": 1174.78,
+   "used": [
+    {
+     "question": "excepcion_iberica",
+     "value": 250,
+     "level": 2,
+     "evidence": [
+      "sumar-precio_luz_gas-20260309-a",
+      "sumar-precio_luz_gas-20260930-a"
+     ],
+     "value_note": "Pide topar el precio como en la crisis de Ucrania. Referencia: la excepción ibérica ahorró ~250 € a un hogar PVPC de 3.500 kWh entre jun. y dic. de 2022 (EsadeEcPol, neto del ajuste; ver data/model_excepcion_iberica.json)",
+     "expired": false
+    }
+   ]
+  },
+  "PODEMOS|impuestos_factura|hogar_tipo": {
+   "effect": 0.0,
+   "level": 0,
+   "flags": [
+    "sin_propuesta"
+   ],
+   "used": [],
+   "ref_eur": 1424.78,
+   "new_eur": 1424.78,
+   "answer_hint": "ambiguo"
+  },
+  "PODEMOS|impuestos_factura|hogar_vulnerable": {
+   "effect": 0.0,
+   "level": 0,
+   "flags": [
+    "sin_propuesta"
+   ],
+   "used": [],
+   "ref_eur": 1244.69,
+   "new_eur": 1244.69,
+   "answer_hint": "ambiguo"
+  },
+  "PODEMOS|bono_social|hogar_vulnerable": {
+   "effect": -38.59,
+   "level": 2,
+   "flags": [],
+   "aplazado_eur": null,
+   "y2028_eur": 0.0,
+   "ref_eur": 800.63,
+   "new_eur": 762.04,
+   "used": [
+    {
+     "question": "bono_prorroga",
+     "value": 42.5,
+     "level": 2,
+     "evidence": [
+      "podemos-bono_social-20260309-x",
+      "podemos-bono_social-20240723-a",
+      "podemos-bono_social-20260326-x"
+     ],
+     "value_note": "piden mejorar los descuentos: como mínimo, mantener los vigentes",
+     "expired": false
+    }
+   ]
+  },
+  "PODEMOS|tur_gas|hogar_tipo": {
+   "effect": 0.0,
+   "level": 0,
+   "flags": [
+    "aplazado",
+    "sin_propuesta",
+    "tur_formula_completa_necesaria"
+   ],
+   "used": [],
+   "ref_eur": 444.07,
+   "new_eur": 444.07,
+   "answer_hint": "si",
+   "aplazado_eur": 126.52
+  },
+  "PODEMOS|tur_gas|hogar_vulnerable": {
+   "effect": 0.0,
+   "level": 0,
+   "flags": [
+    "aplazado",
+    "sin_propuesta",
+    "tur_formula_completa_necesaria"
+   ],
+   "used": [],
+   "ref_eur": 444.07,
+   "new_eur": 444.07,
+   "answer_hint": "si",
+   "aplazado_eur": 126.52
+  },
+  "PODEMOS|precio_luz_gas|hogar_tipo": {
+   "effect": -250.0,
+   "level": 2,
+   "flags": [
+    "referencia_2022"
+   ],
+   "aplazado_eur": null,
+   "y2028_eur": 0.0,
+   "ref_eur": 1424.78,
+   "new_eur": 1174.78,
+   "used": [
+    {
+     "question": "excepcion_iberica",
+     "value": 250,
+     "level": 2,
+     "evidence": [
+      "podemos-precio_luz_gas-20260321-a",
+      "podemos-precio_luz_gas-20260930-a"
+     ],
+     "value_note": "Pide «topar el precio de la energía». Referencia: la excepción ibérica ahorró ~250 € a un hogar PVPC de 3.500 kWh entre jun. y dic. de 2022 (EsadeEcPol, neto del ajuste)",
+     "expired": false
+    }
+   ]
+  }
+ },
+ "headline": {
+  "hogar_tipo": {
+   "x_eur": 958,
+   "x_eur_year": 239,
+   "best": "VOX",
+   "worst": "PSOE",
+   "totals": {
+    "PSOE": 0.0,
+    "PP": -167.02,
+    "VOX": -239.47,
+    "SUMAR": -167.02,
+    "PODEMOS": 0.0
+   },
+   "topics": [
+    "impuestos_factura"
+   ],
+   "parties_compared": [
+    "PODEMOS",
+    "PP",
+    "PSOE",
+    "SUMAR",
+    "VOX"
+   ]
+  },
+  "hogar_vulnerable": {
+   "x_eur": 672,
+   "x_eur_year": 168,
+   "best": "VOX",
+   "worst": "PSOE",
+   "totals": {
+    "PSOE": -38.59,
+    "PP": -143.47,
+    "VOX": -206.64,
+    "SUMAR": -182.06,
+    "PODEMOS": -38.59
+   },
+   "topics": [
+    "impuestos_factura",
+    "bono_social"
+   ],
+   "parties_compared": [
+    "PODEMOS",
+    "PP",
+    "PSOE",
+    "SUMAR",
+    "VOX"
+   ]
+  }
+ },
+ "impacted": {
+  "impuestos_factura": {
+   "hogares": 19874860,
+   "hogares_basis": "INE: total hogares en viviendas familiares (every household pays electricity taxes/IVA). Use this as 'hogares'; the CNMC supply-point count below is NOT households.",
+   "personas_official": 49409876,
+   "personas_note": "Población en viviendas familiares (INE, official, not an estimate) - preferable to hogares x 2,49",
+   "what": "Hogares en España (INE). Puntos de suministro domésticos de electricidad 2.0TD: 29.679.050 (CNMC, 30/09/2025; de ellos 21.475.875 mercado libre + 8.203.175 PVPC). + gas: 7.717.169 clientes RL.1-RL.3 (≤50 MWh/año, CNMC, marzo 2026)",
+   "supply_points_electricity_2_0TD": 29679050,
+   "supply_points_electricity_ref_date": "2025-09-30",
+   "supply_points_electricity_source": "https://www.cnmc.es/sites/default/files/6717503.pdf",
+   "supply_points_electricity_location": "CNMC IS/DE/014/25 (cambios de comercializador, 3T 2025), Anexo I Tabla 5, p.34",
+   "supply_points_gas_RL1_RL3": 7717169,
+   "supply_points_gas_ref_date": "2026-03-31",
+   "supply_points_gas_source": "https://www.cnmc.es/sites/default/files/6807815.pdf",
+   "supply_points_gas_location": "CNMC IS/DE/006/26 Boletín mercado minorista gas 1T 2026, sección 7, Figura 3 (RL01 5.340.659 + RL02 2.183.458 + RL03 193.052, marzo 2026)",
+   "ref_date": "2026-07-01",
+   "source": "https://www.ine.es/jaxiT3/Tabla.htm?t=60131"
+  },
+  "bono_social": {
+   "hogares": 1716420,
+   "split": {
+    "vulnerable": 798134,
+    "vulnerable_severo": 918286,
+    "detail_marzo_2026": {
+     "V_FN": 282714,
+     "V_IMV": 7044,
+     "V_P": 46048,
+     "V_UC": 462328,
+     "VS_FN": 165132,
+     "VS_IMV": 35999,
+     "VS_P": 28036,
+     "VS_UC": 689119
+    },
+    "codes_note": "Categories per CNMC methodological note (FN, IMV, P, UC under RD-ley 6/2022); exact code meanings in 'Tabla conversiones grupos Bono social.pdf'"
+   },
+   "personas_estimate": 4273886,
+   "personas_estimate_note": "1.716.420 x 2,49 (estimación; probablemente a la baja, ya que familias numerosas son una categoría de acceso)",
+   "what": "Clientes (puntos de suministro) con bono social eléctrico, marzo 2026",
+   "ref_date": "2026-03",
+   "source": "https://data.cnmc.es/energia/energia-electrica/bono-social/estadistica-bono-social",
+   "source_api": "https://catalogodatos.cnmc.es/api/3/action/datastore_search?resource_id=007cdc32-68a7-41cf-b568-256d3e3d5999",
+   "dataset_updated": "2026-09-11"
+  },
+  "tur_gas": {
+   "hogares": 3139449,
+   "personas_estimate": 7817228,
+   "personas_estimate_note": "3.139.449 x 2,49 (estimación; techo, incluye algunos pequeños comercios y TUR vecinal)",
+   "what": "Clientes de gas natural a Tarifa de Último Recurso (39,5% de 7.951.379 clientes de gas; mercado libre 4.811.930), 31/03/2026",
+   "ref_date": "2026-03-31",
+   "source": "https://www.cnmc.es/sites/default/files/6807815.pdf",
+   "location": "CNMC IS/DE/006/26 Boletín trimestral mercado minorista gas 1T 2026, sección 3",
+   "previous": {
+    "value": 3112066,
+    "ref_date": "2025-12-31",
+    "source": "https://www.cnmc.es/sites/default/files/6742152.pdf",
+    "location": "Informe minorista gas y electricidad 2025 (IS/DE/027/26), p.19"
+   }
+  },
+  "pvpc": {
+   "hogares": 8203175,
+   "personas_estimate": null,
+   "personas_estimate_note": "Not computed: supply points include second homes; 8.203.175 x 2,49 = 20,4M would be an upper bound only. If needed, label as 'hasta ~20 millones de personas'.",
+   "what": "Puntos de suministro domésticos (2.0TD) en PVPC/comercializador de referencia, 27,6% del segmento doméstico (mercado libre: 21.475.875), 30/09/2025",
+   "ref_date": "2025-09-30",
+   "source": "https://www.cnmc.es/sites/default/files/6717503.pdf",
+   "location": "CNMC IS/DE/014/25, Anexo I Tabla 5, p.34",
+   "latest_rounded": {
+    "value_text": "aproximadamente 8,2 millones (27,4% de los consumidores domésticos)",
+    "total_cor_all_segments": 8152796,
+    "ref_date": "2025-12-31",
+    "source": "https://www.cnmc.es/sites/default/files/6742152.pdf",
+    "location": "Informe minorista gas y electricidad 2025 (IS/DE/027/26), pp.13 y 15"
+   }
+  },
+  "butano": {
+   "hogares": null,
+   "what": "Hogares que usan bombona de butano",
+   "ref_date": null,
+   "source": null,
+   "note": "No official household count found (MITECO 29/09/2026 press release on butane price cap gives no household figure). '8 millones de hogares' appears only in an Endesa blog - not citable."
+  }
+ }
+}

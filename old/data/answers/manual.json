@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "note": "Risposte inserite a mano da Diego (9 ott 2026). Fonte: Google AI Overview, nessun link primario: sostituire con dichiarazione e URL prima della pubblicazione. Caricato per ultimo: sovrascrive bono_tur.json per le stesse coppie partito×domanda."
+  },
+  "answers": [
+    {"question": "tur_tope", "party": "PP", "answer": "no", "level": 2, "value": 45, "evidence": [],
+     "value_note": "Crítico con el tope: lo considera una «hipoteca tarifaria»; propone rebajas de impuestos y subvenciones directas (según AI Overview de Google, pendiente de fuente primaria)",
+     "rationale": "Rechaza el tope a la TUR y prefiere rebajas fiscales y ayudas directas."},
+    {"question": "tur_tope", "party": "VOX", "answer": "no", "level": 2, "value": 45, "evidence": [],
+     "value_note": "En contra de que el Estado altere los precios; propone eliminar tasas e impuestos (según AI Overview de Google, pendiente de fuente primaria)",
+     "rationale": "Rechaza intervenir el precio de la TUR."},
+    {"question": "excepcion_iberica", "party": "SUMAR", "answer": "si", "level": 2, "value": 250, "evidence": ["sumar-precio_luz_gas-20260309-a", "sumar-precio_luz_gas-20260930-a"],
+     "value_note": "Pide topar el precio como en la crisis de Ucrania. Referencia: la excepción ibérica ahorró ~250 € a un hogar PVPC de 3.500 kWh entre jun. y dic. de 2022 (EsadeEcPol, neto del ajuste; ver data/model_excepcion_iberica.json)",
+     "rationale": "Propone volver a intervenir el precio de la luz."},
+    {"question": "excepcion_iberica", "party": "PODEMOS", "answer": "si", "level": 2, "value": 250, "evidence": ["podemos-precio_luz_gas-20260321-a", "podemos-precio_luz_gas-20260930-a"],
+     "value_note": "Pide «topar el precio de la energía». Referencia: la excepción ibérica ahorró ~250 € a un hogar PVPC de 3.500 kWh entre jun. y dic. de 2022 (EsadeEcPol, neto del ajuste)",
+     "rationale": "Propone topar el precio de la energía."},
+    {"question": "excepcion_iberica", "party": "PP", "answer": "no", "level": 2, "value": 0, "evidence": ["pp-precio_luz_gas-20260930-a"],
+     "value_note": "Votó en contra de intervenir y limitar el precio de la electricidad (30/9/2026)", "rationale": "Rechaza intervenir el precio."},
+    {"question": "excepcion_iberica", "party": "VOX", "answer": "no", "level": 2, "value": 0, "evidence": ["vox-precio_luz_gas-20260929-a"],
+     "value_note": "En contra de intervenir los precios de la energía", "rationale": "Rechaza intervenir el precio."}
+  ]
+}

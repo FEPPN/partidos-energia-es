@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "note": "Blocco 3 di 'La factura en juego' (pivot 8 ott 2026). Ogni domanda appartiene a un tema di topics.json. Le domande con 'euro' alimentano il calcolo in € (blocchi 1, 2, 4, 5): 'param' è il parametro del modello di bolletta che la risposta del partito valorizza. Testi = BOZZA da validare col team.",
+    "status": "borrador",
+    "updated_at": "2026-10-08"
+  },
+  "euro_topics": ["impuestos_factura", "bono_social", "tur_gas"],
+  "questions": [
+    {"key": "iva_luz", "topic": "impuestos_factura", "text": "¿Bajar el IVA de la luz?", "euro": true, "param": "iva_luz_pct", "unit": "%", "note": "Valore = aliquota IVA proposta per l'elettricità domestica."},
+    {"key": "iva_gas", "topic": "impuestos_factura", "text": "¿Bajar el IVA del gas natural?", "euro": true, "param": "iva_gas_pct", "unit": "%"},
+    {"key": "rebaja_permanente", "topic": "impuestos_factura", "text": "¿Que la rebaja de impuestos sea permanente (no temporal ni condicionada)?", "euro": false, "note": "Qualifica le due domande precedenti: una rebaja temporale che scade prima del 2027 vale 0 € rispetto allo scenario 1/1/2027."},
+    {"key": "impuesto_electrico", "topic": "impuestos_factura", "text": "¿Bajar o suprimir el impuesto especial sobre la electricidad?", "euro": true, "param": "iee_pct", "unit": "%"},
+    {"key": "impuesto_generacion", "topic": "impuestos_factura", "text": "¿Suprimir el impuesto del 7% a la generación eléctrica?", "euro": false, "note": "Effetto indiretto sul prezzo all'ingrosso: niente € (decisione grill), solo posizione."},
+
+    {"key": "bono_prorroga", "topic": "bono_social", "text": "¿Prorrogar más allá del 31 de diciembre los descuentos reforzados del bono social eléctrico?", "euro": true, "param": "bono_dto_vulnerable_pct", "unit": "%", "note": "Prórroga = livello 2 (≈): si usano i descuentos vigentes fissati nel decreto."},
+    {"key": "bono_ampliar_descuento", "topic": "bono_social", "text": "¿Subir los descuentos del bono social por encima de los actuales?", "euro": true, "param": "bono_dto_vulnerable_pct", "unit": "%"},
+    {"key": "bono_ampliar_beneficiarios", "topic": "bono_social", "text": "¿Ampliar quién puede pedir el bono social (renta, familias numerosas…)?", "euro": false, "note": "Cambia le persone coinvolte, non la bolletta della famiglia vulnerabile tipo."},
+    {"key": "bono_automatico", "topic": "bono_social", "text": "¿Conceder el bono social de forma automática, sin tener que solicitarlo?", "euro": false},
+    {"key": "prohibicion_cortes", "topic": "bono_social", "text": "¿Mantener la prohibición de cortar la luz y el gas a hogares vulnerables?", "euro": false},
+
+    {"key": "tur_tope", "topic": "tur_gas", "text": "¿Mantener un tope a la subida de la tarifa regulada del gas (TUR)?", "euro": true, "param": "tur_tope_pct", "unit": "%", "deferred": true, "note": "Risparmio 'aplazado': il tetto genera debito che si recupera nelle revisioni successive (OCU). Escluso dall'headline."},
+    {"key": "tur_congelar", "topic": "tur_gas", "text": "¿Congelar o bajar la TUR del gas?", "euro": true, "param": "tur_tope_pct", "unit": "%", "deferred": true},
+    {"key": "tur_mantener", "topic": "tur_gas", "text": "¿Mantener la tarifa regulada del gas (TUR) frente a su eliminación?", "euro": false},
+    {"key": "tur_ampliar", "topic": "tur_gas", "text": "¿Extender la TUR a más consumidores?", "euro": false},
+    {"key": "butano_tope", "topic": "tur_gas", "text": "¿Mantener el precio máximo de la bombona de butano?", "euro": false, "note": "Non è TUR ma è gas domestico regolato: posizione senza € nel profilo tipo (che ha gas canalizzato)."},
+
+    {"key": "excepcion_iberica", "topic": "precio_luz_gas", "text": "¿Intervenir el mercado para topar el precio de la luz (como la «excepción ibérica»)?", "euro": false},
+    {"key": "pvpc_mantener", "topic": "precio_luz_gas", "text": "¿Mantener la tarifa regulada de la luz (PVPC)?", "euro": false},
+    {"key": "nucleares_calendario", "topic": "nucleares", "text": "¿Derogar el calendario de cierre de las nucleares?", "euro": false},
+    {"key": "renovables_acelerar", "topic": "renovables", "text": "¿Acelerar las renovables?", "euro": false},
+    {"key": "impuesto_energeticas", "topic": "impuesto_energeticas", "text": "¿Un impuesto a los beneficios extra de las energéticas?", "euro": false},
+    {"key": "carburantes_impuestos", "topic": "carburantes", "text": "¿Bajar los impuestos de la gasolina y el diésel?", "euro": false},
+    {"key": "coche_2035", "topic": "coche_electrico", "text": "¿Mantener el fin del coche de combustión en 2035?", "euro": false},
+    {"key": "autoconsumo_ayudas", "topic": "autoconsumo", "text": "¿Más ayudas al autoconsumo?", "euro": false},
+    {"key": "apagon", "topic": "apagon_red", "text": "¿Qué dicen sobre el apagón y la red eléctrica?", "euro": false, "binary": false},
+    {"key": "data_center", "topic": "data_center", "text": "¿Qué dicen sobre los centros de datos?", "euro": false, "binary": false}
+  ]
+}

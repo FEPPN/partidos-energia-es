@@ -24,6 +24,7 @@ partidos-energia-es/
 │   ├── hub_proposals.py         ← genera los prototipos 01-05 de la página principal
 │   ├── hub_proposals_free.py    ← genera los prototipos 06-10 (conceptos libres)
 │   └── mockups_db.py            ← 5 mockups de la versión «base de datos» (3 nov 2026)
+├── old/                         ← herramienta monetaria «La factura en juego», archivada (ver old/README.md)
 ├── skills/                      ← procedimientos para el agente (en italiano)
 │   ├── aggiorna-dichiarazioni.md← actualización periódica de declaraciones
 │   └── modifica-partiti-temi.md ← coaliciones, nuevos temas, cambios de proposición

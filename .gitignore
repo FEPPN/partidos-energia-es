@@ -3,21 +3,5 @@ README.it.md
 __pycache__/
 *.pyc
 
-# Herramienta monetaria «La factura en juego» (abandonada el 3 nov 2026): no se publica
-scripts/calc.py
-scripts/build_factura.py
-scripts/test_calc.py
-scripts/sync_oscar.py
-scripts/inspect_models.py
-scripts/merge_answers.py
-data/euro_matrix.json
-data/bill_model.json
-data/baseline_2027.json
-data/impacted.json
-data/model_excepcion_iberica.json
-data/model_nuclear.json
-data/questions.json
-data/answers/
-data/oscar_models/
-docs/HANDOFF_bill_model.md
-output/factura/
+# Modelos Excel internos del Termómetro (PR ES): fuera hasta que el repo sea privado
+old/data/oscar_models/

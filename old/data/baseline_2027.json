@@ -1,0 +1,193 @@
+{
+  "_meta": {
+    "project": "La factura en juego | Elecciones 29N",
+    "purpose": "Parametri per calcolare l'effetto DIRETTO delle proposte dei partiti vs BASELINE = cio' che si applica per legge il 1/1/2027 se nessuno fa nulla",
+    "verified_at": "2026-10-08",
+    "method": "Lettura testo integrale BOE (RDL 7/2026, 18/2026, 25/2026 consolidati o originali; RD 897/2017 consolidato; Ley 38/1992 consolidata; Resoluciones DGPEM TUR 25/06/2026 e 30/09/2026; Resolucion GLP 08/09/2026) + AEAT/MITECO. Stampa usata solo per localizzare i testi o, dove indicato, come fonte secondaria.",
+    "narrative": "scratchpad/research/04_baseline.md",
+    "units": "pct = percentuale; prezzi TUR senza imposte"
+  },
+  "params": {
+    "iva_luz_pct": {
+      "current": 21,
+      "current_condition": "Ottobre 2026: 21% (nessun decreto prevede riduzione per ottobre; RDL 18/2026 copriva solo ago/set e RDL 25/2026 solo nov/dic). RDL 25/2026 art. 18: 10% a NOVEMBRE 2026 se l'IPC subclase 04.5.1.0 Electricidad di SETTEMBRE 2026 supera di piu' del 15% quello di settembre 2025 (dato INE pubblicato in ottobre: 14/10/2026). Art. 19: 10% a DICEMBRE se IPC elettricita' di OTTOBRE > +15% a/a (dato INE di novembre). Ambito: contratti con potenza <= 10 kW (qualsiasi tensione/modalita') + percettori bono social vulnerabile severo / severo a rischio esclusione.",
+      "history": "RDL 7/2026 art. 42: 10% dal 22/03/2026 'hasta el 30 de junio', con clausola di uscita a giugno se IPC elettricita' aprile non > +15% -> scattata: 21% dal 1/06/2026 (AEAT Manual IVA 2026). RDL 18/2026 artt. 10-11: 10% ad ago/set solo se IPC giugno/luglio > +15%; RDL 25/2026 (preambolo) conferma che a settembre non si e' applicata. Agosto: 21% secondo stampa (non verificato su fonte primaria, irrilevante per baseline).",
+      "baseline_2027": 21,
+      "source_current": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20265",
+      "source_baseline": "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/manual-iva-2026/capitulo-01-novedades-destacar-2026/tipos-impositivos.html",
+      "note": "Nessuna misura IVA luce oltre il 31/12/2026: tipo generale 21% (Ley 37/1992 art. 90). RDL 25/2026 da convalidare dalla Diputacion Permanente il 16/10/2026."
+    },
+    "iva_gas_pct": {
+      "current": 21,
+      "current_condition": "Ottobre 2026: 21%. RDL 25/2026 art. 18.2: 10% a NOVEMBRE su gas naturale, bricchette, pellet e legna se IPC subclase 04.5.2.1 Gas natural di settembre 2026 > +15% a/a; art. 19.2: 10% a DICEMBRE se IPC gas di ottobre > +15%. Butano/GLP: 10% dal 22/03 al 30/06/2026, 21% dal 1/07/2026 (AEAT).",
+      "baseline_2027": 21,
+      "source_current": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20265",
+      "source_baseline": "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/manual-iva-2026/capitulo-01-novedades-destacar-2026/tipos-impositivos.html",
+      "note": "Stessa logica luce. Nessuna proroga oltre il 31/12/2026."
+    },
+    "iee_pct": {
+      "current": 5.11269632,
+      "current_condition": "Ottobre 2026: tipo ordinario 5,11269632% (minimi 0,5 EUR/MWh usi industriali, 1 EUR/MWh altri usi). RDL 25/2026 art. 20: 0,5% a NOVEMBRE se IPC elettricita' settembre > +15% a/a; art. 21: 0,5% a DICEMBRE se IPC elettricita' ottobre > +15%; con gli stessi minimi 0,5/1 EUR/MWh.",
+      "baseline_2027": 5.11269632,
+      "baseline_minimums_eur_mwh": {
+        "industrial": 0.5,
+        "other_uses_incl_domestic": 1.0
+      },
+      "base_imponible": "Ley 38/1992 art. 97: base = base imponibile IVA della fornitura (dopo eventuale sconto bono social), esclusa la quota IEE stessa.",
+      "source_current": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20265",
+      "source_baseline": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-28741",
+      "note": "Ley 38/1992 art. 99 consolidato (verificato 08/10/2026): 5,11269632%. RDL 7/2026 art. 40 lo aveva portato a 0,5% fino al 30/06 (uscita a giugno)."
+    },
+    "bono_dto_vulnerable_pct": {
+      "current": 42.5,
+      "current_condition": "RDL 7/2026 art. 1 (convalidato 26/03/2026): 42,5% 'con caracter excepcional' dal 1/01/2026 al 31/12/2026.",
+      "baseline_2027": 35,
+      "source_current": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-6544",
+      "source_baseline": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-11505",
+      "note": "Baseline = valore permanente RD 897/2017 art. 6.3 (nella redazione data da RDL 4/2024 art. 24): 35% vulnerabile."
+    },
+    "bono_dto_severo_pct": {
+      "current": 57.5,
+      "current_condition": "RDL 7/2026 art. 1: 57,5% dal 1/01/2026 al 31/12/2026.",
+      "baseline_2027": 50,
+      "source_current": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-6544",
+      "source_baseline": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-11505",
+      "note": "RD 897/2017 art. 6.3 permanente: 50% vulnerabile severo."
+    },
+    "bono_kwh_limits": {
+      "unit": "kWh/anno di consumo con diritto allo sconto sul termine di energia",
+      "limits": {
+        "individuale_o_2_persone": 1587,
+        "3_persone_o_pensionisti_minima_o_2_persone_con_1_minore": 2222,
+        "4_persone_o_3_persone_con_2_minori": 2698,
+        "5_o_piu_persone_o_4_con_3_minori_o_famiglia_numerosa": 4761
+      },
+      "how_applied": "RD 897/2017 art. 6.2-6.3 + Anexo I: il bono e' uno sconto sul PVPC (obbligatorio essere a PVPC con comercializadora de referencia; il prezzo risultante e' la TUR elettrica). Lo sconto si applica a 'todos los terminos que componen el PVPC': termine di potenza per intero; termine di energia solo sulla quota di consumo entro il limite (limite annuo prorateato per giorni del periodo di fatturazione + energia non consumata con diritto a sconto dei 12 mesi precedenti); il consumo oltre il limite e' fatturato a PVPC pieno. Lo sconto e' pre-imposte: IEE (base = importo IVA, art. 97 Ley 38/1992) e IVA si calcolano sull'importo gia' scontato.",
+      "baseline_2027": "invariati (limiti permanenti, Anexo I modificato da RDL 18/2022 art. 12)",
+      "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-11505",
+      "note": "Nessuna misura temporanea sui limiti kWh in vigore nel 2026."
+    },
+    "tur_oct2026": {
+      "valid_from": "2026-10-01",
+      "tur1_fixed_eur_month": 3.83,
+      "tur1_var_eur_kwh": 0.0525259,
+      "tur2_fixed_eur_month": 8.17,
+      "tur2_var_eur_kwh": 0.05042762,
+      "tur3_fixed_eur_month": 19.32,
+      "tur3_var_eur_kwh": 0.04698799,
+      "prev_jul2026": {
+        "tur1_fixed_eur_month": 3.93,
+        "tur1_var_eur_kwh": 0.04329798,
+        "tur2_fixed_eur_month": 8.11,
+        "tur2_var_eur_kwh": 0.04119908,
+        "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14233"
+      },
+      "cn_applied_c_eur_kwh": 3.574741,
+      "cn_formula_c_eur_kwh": 5.626153,
+      "cn_prev_jul2026_c_eur_kwh": 2.65,
+      "debt_media_unitaria_c_eur_kwh": 2.051412,
+      "increase_applied_pct": 15,
+      "increase_applied_pct_note": "~15% e' la stima ufficiale MITECO sulla bolletta TUR ('el incremento final de la TUR se queda en el entorno del 15%'). Il limite legale e' +35% sul solo termine Cn (materia prima), non sulla bolletta. Mie verifiche (pre-imposte, senza IEH/noleggio contatore): termine variabile TUR1 +21,31%, TUR2 +22,40%; bolletta TUR1 a 3.000 kWh/anno 177,05 -> 203,54 EUR (+15,0%); TUR2 a 9.000 kWh/anno 468,11 -> 551,89 EUR (+17,9%). OCU: +17% (9.000 kWh, 600 -> 702 EUR/anno).",
+      "increase_without_cap_pct": 45,
+      "increase_without_cap_pct_note": "'superior al 45 por ciento' (RDL 25/2026 preambolo e MITECO). Mie verifiche con Cn da formula 5,626153: TUR1 3.000 kWh +49,7%; TUR2 9.000 kWh +57,3%. OCU: fino a +54% per famiglia con riscaldamento.",
+      "cap_instrument": "Real Decreto-ley 25/2026, de 29 de septiembre, art. 1 (BOE-A-2026-20265), applicato da Resolucion DGPEM de 30/09/2026 (BOE-A-2026-20389)",
+      "cap_until": "Due revisioni: 1/10/2026 (Cn <= +35% vs Cn in vigore dal 1/07/2026) e 1/01/2027 (Cn <= +15% vs Cn del 1/10/2026, cioe' Cn max 4,110952 c EUR/kWh). Revisioni successive: metodologia ordinaria Orden ITC/1660/2009, ma con recupero del debito tramite aumento di Cn 'con el limite establecido en el apartado anterior' (lettura MITECO: aumenti Cn max 15% per trimestre finche' il deficit non e' recuperato).",
+      "deficit_recovery": "RDL 25/2026 art. 1.2-1.10: la differenza tra Cn da formula e Cn applicato, piu' costo finanziario (tasso 'coste de la deuda' CNMC distribuzione gas periodo 2027-2032), si recupera aumentando Cn nelle revisioni trimestrali dal 1/01/2027 'hasta su completa amortizacion' (senza termine). Finche' c'e' debito pendente Cn NON puo' scendere e non si applica la soglia del 2%. Chi lascia la TUR prima della completa amortizzazione paga la 'deuda media' del proprio scaglione: per uscite prima del 1/01/2027 = 2,051412 c EUR/kWh x kWh fatturati dal 1/10/2026 + costo finanziario (giorni in TUR meno 60) + imposte. Il debito non e' personale ma per scaglione TUR (OCU: si paghera' probabilmente da aprile 2027).",
+      "baseline_2027_estimate": {
+        "rule": "Al 1/01/2027 resta in vigore il cap (+15% su Cn) previsto dallo stesso RDL 25/2026: il baseline TUR 2027 NON e' 'prezzo libero da formula'. Se la formula resta sopra il cap (molto probabile con Cn formula 5,63 vs cap 4,11), Cn = 4,110952 c EUR/kWh, cioe' +0,536211 c EUR/kWh sul termine variabile, a parita' di peajes/cargos.",
+        "tur1_var_eur_kwh_if_cap_binds": 0.05788801,
+        "tur2_var_eur_kwh_if_cap_binds": 0.05578973,
+        "status": "STIMA (non pubblicata). Fissata con Resolucion DGPEM di fine dicembre 2026."
+      },
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20389",
+      "source_cap": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20265",
+      "source_press_official": "https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/septiembre/el-miteco-protege-a-hogares-y-pymes-de-la-subida-de-la-cotizacio.html",
+      "cn_gap_eur_kwh": 0.02051412,
+      "cn_gap_note": "Differenza tra Cn da formula (5,626153 c€/kWh) e Cn applicato con tetto (3,574741 c€/kWh) nella revisione TUR del 1/10/2026 = quota rinviata (debito) per kWh. Fonte: Resolución TUR oct 2026 (BOE), letta dall'agente baseline.",
+      "baseline_2027_rule": "Il tetto resta in vigore per legge nel 2027 finché si recupera il debito: scenario base = prezzo TUR con tetto (ott 2026)."
+    },
+    "butano_max_eur": {
+      "current": 18.84,
+      "current_condition": "Prezzo massimo bombola 12,5 kg (peninsulare, con imposte) dal 15/09/2026; pre-imposte 123,4447 c EUR/kg (Resolucion DGPEM 08/09/2026). Valore 18,84 EUR da nota MITECO 29/09/2026.",
+      "cap_eur": 19.55,
+      "cap_instrument": "RDL 25/2026 art. 3: nelle revisioni approvate fino al 30/06/2027 il prezzo max pre-imposte non puo' superare quello della Resolucion DGPEM 12/05/2022 (= 19,55 EUR/bombola 12,5 kg). La differenza va nel 'parametro de desajuste' (Orden IET/389/2015) e si recupera nelle revisioni successive.",
+      "cap_until": "2027-06-30",
+      "baseline_2027": "cap ancora vigente al 1/01/2027: prezzo max <= 19,55 EUR (prossime revisioni bimestrali: novembre 2026, gennaio 2027)",
+      "source_current": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19115",
+      "source_baseline": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20265",
+      "note": "IVA butano 21% dal 1/07/2026. Il cap e' sul prezzo pre-imposte: se cambiasse l'IVA, il massimo in EUR con imposte varierebbe."
+    }
+  },
+  "other_expiring": [
+    {
+      "measure": "Garanzia di fornitura (divieto di taglio) acqua ed energia a consumatori vulnerabili (art. 4 RDL 8/2021, via art. 83 RDL 1/2025 come modificato da RDL 7/2026 art. 4)",
+      "until": "2026-12-31",
+      "baseline_2027": "decade: tornano i tempi ordinari di sospensione per impago (RD 897/2017: 4 mesi per vulnerabili, poi potenza minima vitale 3,5 kW per 6 mesi; severi a rischio esclusione restano non sospendibili)",
+      "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-6544"
+    },
+    {
+      "measure": "Sconti straordinari bono social elettrico 42,5% / 57,5% (RDL 7/2026 art. 1)",
+      "until": "2026-12-31",
+      "baseline_2027": "35% / 50%",
+      "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-6544"
+    },
+    {
+      "measure": "Salvaguardie IVA 10% luce/gas e IEE 0,5% (RDL 25/2026 artt. 18-21)",
+      "until": "2026-12-31 (solo nov e dic, condizionate a IPC)",
+      "baseline_2027": "IVA 21%, IEE 5,11269632%",
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20265"
+    },
+    {
+      "measure": "Flessibilizzazione contratti luce per autonomi e imprese (cambio potenza senza vincolo 12 mesi, senza costi) (RDL 7/2026 art. 5)",
+      "until": "2026-12-31",
+      "baseline_2027": "decade (non riguarda famiglie)",
+      "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-6544"
+    },
+    {
+      "measure": "Flessibilizzazione contratti gas RL4+ e autonomi (RDL 7/2026 art. 6)",
+      "until": "2026-12-31",
+      "baseline_2027": "decade (non riguarda TUR1/TUR2 domestiche)",
+      "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-6544"
+    },
+    {
+      "measure": "Canone zero stoccaggio sotterraneo gas oltre 20 giorni (RDL 7/2026 art. 8), incorporato nel calcolo TUR (applicato solo a 20 giorni, 40 esenti)",
+      "until": "2027-03-31",
+      "baseline_2027": "ancora vigente al 1/01/2027",
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20389"
+    },
+    {
+      "measure": "Cap TUR gas (RDL 25/2026 art. 1)",
+      "until": "revisione 1/01/2027 inclusa; recupero debito senza termine",
+      "baseline_2027": "Cn max +15% vs ottobre; avvio recupero",
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20265"
+    },
+    {
+      "measure": "Cap butano 19,55 EUR (RDL 25/2026 art. 3)",
+      "until": "2027-06-30",
+      "baseline_2027": "ancora vigente",
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20265"
+    },
+    {
+      "measure": "Impuesto sobre el valor de la produccion de energia electrica (IVPEE, tassa sui generatori, impatto indiretto sul prezzo all'ingrosso)",
+      "until": "n/a",
+      "baseline_2027": "tipo 3,5% nel 2027 e 0% dal 2028 (RDL 18/2026, modifica Ley 15/2012); nel preambolo: le annualita' del debito del sistema elettrico si dimezzano nel 2027 -> cargos 2027 attesi in calo (non ancora fissati)",
+      "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-14112"
+    },
+    {
+      "measure": "Peajes CNMC e cargos MITECO elettricita' 2027",
+      "until": "n/a",
+      "baseline_2027": "NON ancora pubblicati al 08/10/2026 (di norma fissati a dicembre)",
+      "source": null
+    }
+  ],
+  "open_doubts": [
+    "IPC elettricita' e gas di settembre 2026: INE lo pubblica il 14/10/2026. Il flash del 29/09 (IPC generale 4,9%) non dettaglia elettricita'. Se > +15% a/a -> a NOVEMBRE IVA 10% e IEE 0,5% (luce) / IVA 10% (gas). Non influisce sul baseline 1/1/2027 ma sul 'current' di nov-dic.",
+    "RDL 25/2026 non ancora convalidato: voto della Diputacion Permanente fissato per il 16/10/2026 (Cortes sciolte). Se derogato, cadono cap TUR, cap butano e salvaguardie fiscali nov/dic (effetti gia' prodotti a parte). Fonte: stampa (cadenadesuministro.es, ordine del giorno pubblicato da cope.es), pagina congreso.es bloccata.",
+    "TUR gennaio 2027: valore non noto; stimato solo nell'ipotesi che il cap +15% su Cn sia vincolante. Peajes/cargos gas e IEH non verificati per 2027.",
+    "Revisioni TUR dopo gennaio 2027: l'art. 1.1 dice 'metodologia ordinaria' ma l'art. 1.2 recupera il debito 'con el limite establecido en el apartado anterior'; MITECO lo legge come aumenti Cn max 15% per trimestre fino al recupero. Interpretazione da confermare.",
+    "'Aumento TUR ~15%' e' una stima del Governo/MITECO (varia per scaglione e consumo: 15-18% nei miei calcoli, OCU 17%); il '+15%' non e' un tetto legale sulla bolletta: il tetto legale e' +35% sul termine Cn.",
+    "Bono social: il consolidato BOE di RD 897/2017 non riporta ancora la nota su RDL 7/2026 art. 1 (riporta che RDL 16/2025, che fissava gli sconti 2026, e' stato derogato dal Congresso, Resolucion 27/01/2026). Il valore 42,5/57,5 viene dal testo di RDL 7/2026 art. 1 (convalidato 26/03/2026).",
+    "IVA luce agosto 2026: 21% secondo stampa, non verificato su fonte primaria (irrilevante per il calcolo).",
+    "Prezzo butano 18,84 EUR con imposte preso dalla nota MITECO; la resolucion BOE riporta solo il prezzo pre-imposte (123,4447 c EUR/kg)."
+  ]
+}

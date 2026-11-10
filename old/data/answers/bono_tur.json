@@ -1,0 +1,1062 @@
+{
+ "_meta": {
+  "collected_at": "2026-10-08",
+  "scope": "bono_social + tur_gas (10 preguntas x 6 partidos)",
+  "note": "Las nuevas pruebas están en new_statements (formato SCHEMA); no se han modificado data/statements/*.json."
+ },
+ "answers": [
+  {
+   "question": "bono_prorroga",
+   "party": "PSOE",
+   "answer": "si",
+   "level": 2,
+   "value": 42.5,
+   "value_severo": 57.5,
+   "value_note": "descuentos vigentes (RDL 7/2026); no hay aún anuncio formal para 2027",
+   "evidence": [
+    "psoe-bono_social-20260929-x",
+    "psoe-bono_social-20260320-x",
+    "psoe-bono_social-20260326-a",
+    "psoe-bono_social-20260226-a"
+   ],
+   "rationale": "El Gobierno del PSOE ha prorrogado dos veces en 2026 los descuentos reforzados y los reivindica en el Congreso a 29 de septiembre."
+  },
+  {
+   "question": "bono_prorroga",
+   "party": "PP",
+   "answer": "ambiguo",
+   "level": 3,
+   "value": null,
+   "value_note": "votos sobre decretos ómnibus",
+   "evidence": [
+    "pp-bono_social-20260226-a",
+    "pp-bono_social-20260326-x",
+    "pp-bono_social-20250308-x"
+   ],
+   "rationale": "Pidió en 2025 descuentos más altos, pero en 2026 votó en contra (febrero) y se abstuvo (marzo) en los decretos ómnibus que prorrogaban los descuentos."
+  },
+  {
+   "question": "bono_prorroga",
+   "party": "VOX",
+   "answer": "ambiguo",
+   "level": 3,
+   "value": null,
+   "value_note": "votos sobre decretos ómnibus",
+   "evidence": [
+    "vox-bono_social-20260226-a",
+    "vox-bono_social-20260326-x"
+   ],
+   "rationale": "Votó en contra de los dos decretos ómnibus de 2026 que prorrogaban los descuentos, sin rechazar expresamente el bono social."
+  },
+  {
+   "question": "bono_prorroga",
+   "party": "SUMAR",
+   "answer": "si",
+   "level": 2,
+   "value": 42.5,
+   "value_severo": 57.5,
+   "value_note": "descuentos vigentes que Sumar aprobó como socio de Gobierno y votó en el Congreso",
+   "evidence": [
+    "sumar-bono_social-20260326-a",
+    "sumar-bono_social-20260326-x",
+    "sumar-bono_social-20260309-x"
+   ],
+   "rationale": "Sumar forma parte del Gobierno que prorrogó los descuentos, votó a favor del RDL 7/2026 y pide reforzar el escudo social."
+  },
+  {
+   "question": "bono_prorroga",
+   "party": "PODEMOS",
+   "answer": "si",
+   "level": 2,
+   "value": 42.5,
+   "value_severo": 57.5,
+   "value_note": "piden mejorar los descuentos: como mínimo, mantener los vigentes",
+   "evidence": [
+    "podemos-bono_social-20260309-x",
+    "podemos-bono_social-20240723-a",
+    "podemos-bono_social-20260326-x"
+   ],
+   "rationale": "Podemos pide mejorar los descuentos del bono social (marzo de 2026) y en 2024 forzó al PSOE a mantener los descuentos reforzados."
+  },
+  {
+   "question": "bono_prorroga",
+   "party": "SALF",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna declaración nacional de SALF sobre el bono social."
+  },
+  {
+   "question": "bono_ampliar_descuento",
+   "party": "PSOE",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": "mantiene 42,5% / 57,5%; ninguna propuesta de subirlos",
+   "evidence": [
+    "psoe-bono_social-20260320-x"
+   ],
+   "rationale": "El PSOE prorroga los descuentos vigentes pero no ha propuesto subirlos por encima del 42,5% y 57,5%."
+  },
+  {
+   "question": "bono_ampliar_descuento",
+   "party": "PP",
+   "answer": "si",
+   "level": 1,
+   "value": 65,
+   "value_severo": 80,
+   "value_note": "cifra propia del PP (PNL de marzo de 2025)",
+   "evidence": [
+    "pp-bono_social-20250308-x"
+   ],
+   "rationale": "El PP pidió en marzo de 2025 descuentos del 65% para vulnerables y del 80% para vulnerables severos; no consta una cifra posterior."
+  },
+  {
+   "question": "bono_ampliar_descuento",
+   "party": "VOX",
+   "answer": "si",
+   "level": 3,
+   "value": null,
+   "value_note": "solo según el número de hijos, sin cifra",
+   "evidence": [
+    "vox-bono_social-20250325-x",
+    "vox-bono_social-20250325-a"
+   ],
+   "rationale": "Vox propone un aumento progresivo de las ayudas del bono social en función del número de hijos, sin concretar porcentajes."
+  },
+  {
+   "question": "bono_ampliar_descuento",
+   "party": "SUMAR",
+   "answer": "si",
+   "level": 3,
+   "value": null,
+   "value_note": "tarifa social a coste cero para el consumo mínimo vital; propuesta de 2023, sin porcentaje",
+   "evidence": [
+    "sumar-bono_social-20230707-x2"
+   ],
+   "rationale": "Sumar propone sustituir el bono por una tarifa social gratuita para el consumo mínimo vital de los vulnerables (programa 23J, anterior a la legislatura)."
+  },
+  {
+   "question": "bono_ampliar_descuento",
+   "party": "PODEMOS",
+   "answer": "si",
+   "level": 3,
+   "value": null,
+   "value_note": "piden «mejorar los descuentos», sin cifra",
+   "evidence": [
+    "podemos-bono_social-20260309-x",
+    "podemos-bono_social-20240524-a"
+   ],
+   "rationale": "Podemos pide mejorar los descuentos del bono social y que sean «suficientes», sin fijar porcentaje."
+  },
+  {
+   "question": "bono_ampliar_descuento",
+   "party": "SALF",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna declaración nacional de SALF sobre el bono social."
+  },
+  {
+   "question": "bono_ampliar_beneficiarios",
+   "party": "PSOE",
+   "answer": "ambiguo",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [
+    "psoe-bono_social-20260217-x"
+   ],
+   "rationale": "La estrategia del Gobierno quiere cerrar la brecha de cobertura ligando el bono a la renta, pero también limitar el acceso a hogares con rentas altas."
+  },
+  {
+   "question": "bono_ampliar_beneficiarios",
+   "party": "PP",
+   "answer": "si",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [
+    "pp-bono_social-20250308-x2",
+    "pp-bono_social-20230704-a"
+   ],
+   "rationale": "El PP propone una tarifa social energética que suponga una ampliación del actual bono social a más consumidores y suministros."
+  },
+  {
+   "question": "bono_ampliar_beneficiarios",
+   "party": "VOX",
+   "answer": "ambiguo",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [
+    "vox-bono_social-20250325-a"
+   ],
+   "rationale": "Vox se opuso a la iniciativa del PNV sobre el acceso al bono social para proteger a las familias numerosas, sin proponer ampliar los beneficiarios."
+  },
+  {
+   "question": "bono_ampliar_beneficiarios",
+   "party": "SUMAR",
+   "answer": "si",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [
+    "sumar-bono_social-20260309-x"
+   ],
+   "rationale": "Sumar pide que aumente el número de familias que perciben el bono social eléctrico."
+  },
+  {
+   "question": "bono_ampliar_beneficiarios",
+   "party": "PODEMOS",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado una propuesta reciente de Podemos para ampliar los beneficiarios (solo de Unidas Podemos en 2022, antes de la legislatura)."
+  },
+  {
+   "question": "bono_ampliar_beneficiarios",
+   "party": "SALF",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna declaración nacional de SALF sobre el bono social."
+  },
+  {
+   "question": "bono_automatico",
+   "party": "PSOE",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "La estrategia del Gobierno facilita el acceso al bono, pero no propone concederlo de forma automática."
+  },
+  {
+   "question": "bono_automatico",
+   "party": "PP",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna propuesta del PP de bono social automático."
+  },
+  {
+   "question": "bono_automatico",
+   "party": "VOX",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna propuesta de Vox de bono social automático."
+  },
+  {
+   "question": "bono_automatico",
+   "party": "SUMAR",
+   "answer": "si",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [
+    "sumar-bono_social-20230707-x"
+   ],
+   "rationale": "El programa de Sumar propone que la solicitud y la renovación del bono social sean automáticas (programa 23J, anterior a la legislatura)."
+  },
+  {
+   "question": "bono_automatico",
+   "party": "PODEMOS",
+   "answer": "si",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [
+    "podemos-bono_social-20240524-a"
+   ],
+   "rationale": "Podemos propone un bono social con descuentos automáticos en su programa de 2024."
+  },
+  {
+   "question": "bono_automatico",
+   "party": "SALF",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna declaración nacional de SALF sobre el bono social."
+  },
+  {
+   "question": "prohibicion_cortes",
+   "party": "PSOE",
+   "answer": "si",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [
+    "psoe-bono_social-20260929-x",
+    "psoe-bono_social-20260226-a"
+   ],
+   "rationale": "El Gobierno del PSOE ha mantenido en 2026 la prohibición de cortar suministros a hogares vulnerables y la reivindica en el Congreso."
+  },
+  {
+   "question": "prohibicion_cortes",
+   "party": "PP",
+   "answer": "ambiguo",
+   "level": 3,
+   "value": null,
+   "value_note": "votos sobre decretos ómnibus",
+   "evidence": [
+    "pp-bono_social-20260226-a",
+    "pp-bono_social-20260326-x"
+   ],
+   "rationale": "Votó en contra (febrero) y se abstuvo (marzo de 2026) en decretos ómnibus que incluían la prohibición, sin pronunciarse sobre ella."
+  },
+  {
+   "question": "prohibicion_cortes",
+   "party": "VOX",
+   "answer": "ambiguo",
+   "level": 3,
+   "value": null,
+   "value_note": "votos sobre decretos ómnibus",
+   "evidence": [
+    "vox-bono_social-20260226-a",
+    "vox-bono_social-20260326-x"
+   ],
+   "rationale": "Votó en contra de los decretos ómnibus de 2026 que incluían la prohibición, sin pronunciarse expresamente sobre ella."
+  },
+  {
+   "question": "prohibicion_cortes",
+   "party": "SUMAR",
+   "answer": "si",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [
+    "sumar-bono_social-20260326-x",
+    "sumar-bono_social-20260326-a",
+    "sumar-bono_social-20230707-x3"
+   ],
+   "rationale": "Sumar defendió en el Congreso impedir que se corte la luz o el gas a las familias y votó el decreto que lo mantiene."
+  },
+  {
+   "question": "prohibicion_cortes",
+   "party": "PODEMOS",
+   "answer": "si",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [
+    "podemos-bono_social-20260309-x",
+    "podemos-bono_social-20240524-x"
+   ],
+   "rationale": "Podemos pide prohibir el corte de suministros (marzo de 2026) y lo incluye en su programa de 2024."
+  },
+  {
+   "question": "prohibicion_cortes",
+   "party": "SALF",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna declaración nacional de SALF sobre los cortes de suministro."
+  },
+  {
+   "question": "tur_tope",
+   "party": "PSOE",
+   "answer": "si",
+   "level": 1,
+   "value": 15,
+   "value_note": "tope fijado por el Gobierno en el RDL 25/2026 (revisión de octubre de 2026)",
+   "evidence": [
+    "psoe-tur_gas-20260929-x",
+    "psoe-tur_gas-20260929-x2",
+    "psoe-precio_luz_gas-20260929-a"
+   ],
+   "rationale": "El Gobierno del PSOE limitó por decreto la subida de la TUR del gas al 15% frente al 45% previsto."
+  },
+  {
+   "question": "tur_tope",
+   "party": "PP",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": "el RDL 25/2026 se vota en la Diputación Permanente el 16 de octubre (ómnibus)",
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna declaración del PP sobre el tope a la TUR del gas."
+  },
+  {
+   "question": "tur_tope",
+   "party": "VOX",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": "el RDL 25/2026 se vota en la Diputación Permanente el 16 de octubre (ómnibus)",
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna declaración de Vox sobre el tope a la TUR del gas."
+  },
+  {
+   "question": "tur_tope",
+   "party": "SUMAR",
+   "answer": "si",
+   "level": 2,
+   "value": 15,
+   "value_note": "tope aprobado por el Gobierno de coalición del que forma parte Sumar; sin declaración propia sobre la TUR",
+   "evidence": [
+    "psoe-tur_gas-20260929-x",
+    "sumar-carburantes-20260929-a"
+   ],
+   "rationale": "Sumar forma parte del Gobierno que fijó el tope del 15% y el mismo día defendió en el Congreso fijar precios máximos de la energía."
+  },
+  {
+   "question": "tur_tope",
+   "party": "PODEMOS",
+   "answer": "si",
+   "level": 1,
+   "value": 5,
+   "value_note": "cifra propia: subida máxima del 5% de las tarifas de luz y gas",
+   "evidence": [
+    "podemos-tur_gas-20260309-x"
+   ],
+   "rationale": "Podemos propone limitar la subida de las tarifas del gas a un máximo del 5%."
+  },
+  {
+   "question": "tur_tope",
+   "party": "SALF",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna declaración nacional de SALF sobre la TUR del gas."
+  },
+  {
+   "question": "tur_congelar",
+   "party": "PSOE",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": "su medida es un tope del 15%, no una congelación",
+   "evidence": [
+    "psoe-tur_gas-20260929-x"
+   ],
+   "rationale": "El Gobierno ha optado por limitar la subida al 15% y no ha planteado congelar o bajar la TUR."
+  },
+  {
+   "question": "tur_congelar",
+   "party": "PP",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna declaración del PP sobre congelar la TUR."
+  },
+  {
+   "question": "tur_congelar",
+   "party": "VOX",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna declaración de Vox sobre congelar la TUR."
+  },
+  {
+   "question": "tur_congelar",
+   "party": "SUMAR",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna declaración de Sumar sobre congelar la TUR."
+  },
+  {
+   "question": "tur_congelar",
+   "party": "PODEMOS",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": "propone un tope del 5%, no una congelación",
+   "evidence": [
+    "podemos-tur_gas-20260309-x"
+   ],
+   "rationale": "Podemos propone limitar la subida al 5%, no congelar ni bajar la tarifa."
+  },
+  {
+   "question": "tur_congelar",
+   "party": "SALF",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna declaración nacional de SALF sobre la TUR del gas."
+  },
+  {
+   "question": "tur_mantener",
+   "party": "PSOE",
+   "answer": "si",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [
+    "psoe-tur_gas-20260929-x"
+   ],
+   "rationale": "El Gobierno del PSOE mantiene la TUR y la usa como instrumento de protección para más de tres millones de consumidores."
+  },
+  {
+   "question": "tur_mantener",
+   "party": "PP",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna declaración del PP sobre mantener o eliminar la TUR."
+  },
+  {
+   "question": "tur_mantener",
+   "party": "VOX",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna declaración de Vox sobre mantener o eliminar la TUR."
+  },
+  {
+   "question": "tur_mantener",
+   "party": "SUMAR",
+   "answer": "si",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [
+    "psoe-tur_gas-20260929-x",
+    "sumar-carburantes-20260929-a"
+   ],
+   "rationale": "Como socio del Gobierno que acaba de topar la TUR, Sumar respalda mantener la tarifa regulada; no tiene declaración propia."
+  },
+  {
+   "question": "tur_mantener",
+   "party": "PODEMOS",
+   "answer": "si",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [
+    "podemos-tur_gas-20260309-x"
+   ],
+   "rationale": "Podemos propone limitar la subida de las tarifas del gas, lo que presupone mantener la tarifa regulada."
+  },
+  {
+   "question": "tur_mantener",
+   "party": "SALF",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna declaración nacional de SALF sobre la TUR del gas."
+  },
+  {
+   "question": "tur_ampliar",
+   "party": "PSOE",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna propuesta para extender la TUR del gas a más consumidores."
+  },
+  {
+   "question": "tur_ampliar",
+   "party": "PP",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna propuesta para extender la TUR del gas a más consumidores."
+  },
+  {
+   "question": "tur_ampliar",
+   "party": "VOX",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna propuesta para extender la TUR del gas a más consumidores."
+  },
+  {
+   "question": "tur_ampliar",
+   "party": "SUMAR",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna propuesta para extender la TUR del gas a más consumidores."
+  },
+  {
+   "question": "tur_ampliar",
+   "party": "PODEMOS",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna propuesta para extender la TUR del gas a más consumidores."
+  },
+  {
+   "question": "tur_ampliar",
+   "party": "SALF",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna propuesta para extender la TUR del gas a más consumidores."
+  },
+  {
+   "question": "butano_tope",
+   "party": "PSOE",
+   "answer": "si",
+   "level": 3,
+   "value": null,
+   "value_note": "19,55 €/bombona hasta el 30 de junio de 2027",
+   "evidence": [
+    "psoe-tur_gas-20260929-x",
+    "psoe-tur_gas-20260929-x2",
+    "psoe-tur_gas-20260320-x"
+   ],
+   "rationale": "El Gobierno del PSOE congeló el precio del butano en marzo y lo fija en un máximo de 19,55 euros hasta junio de 2027."
+  },
+  {
+   "question": "butano_tope",
+   "party": "PP",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna declaración del PP sobre el precio máximo del butano."
+  },
+  {
+   "question": "butano_tope",
+   "party": "VOX",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna declaración nacional reciente de Vox sobre el precio máximo del butano."
+  },
+  {
+   "question": "butano_tope",
+   "party": "SUMAR",
+   "answer": "si",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [
+    "sumar-carburantes-20260929-a"
+   ],
+   "rationale": "Sumar pone el precio máximo de la bombona de butano como modelo de intervención que quiere extender a los carburantes."
+  },
+  {
+   "question": "butano_tope",
+   "party": "PODEMOS",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna declaración de Podemos sobre el precio máximo del butano."
+  },
+  {
+   "question": "butano_tope",
+   "party": "SALF",
+   "answer": "sin_datos",
+   "level": 3,
+   "value": null,
+   "value_note": null,
+   "evidence": [],
+   "rationale": "No se ha encontrado ninguna declaración nacional de SALF sobre el butano."
+  }
+ ],
+ "new_statements": [
+  {
+   "id": "psoe-tur_gas-20260929-x",
+   "topic": "tur_gas",
+   "type": "declaracion",
+   "date": "2026-09-29",
+   "person": "Gobierno de España",
+   "role": "Nota de prensa de la Presidencia del Gobierno tras el Consejo de Ministros",
+   "level": "nacional",
+   "quote": "limitando la subida de la Tarifa de Último Recurso (TUR) al 15%, frente al 45% previsto, y establece un precio máximo de 19,55 euros para la bombona de butano hasta el 30 de junio de 2027",
+   "context": "Tercer real decreto-ley del Plan Integral de Respuesta a la Crisis en Oriente Medio (RDL 25/2026): limita el peso de la cotización del gas en la fórmula de la TUR de octubre y fija el precio máximo del butano; su convalidación corresponde a la Diputación Permanente (prevista el 16 de octubre).",
+   "stance": "na",
+   "rationale": "El Gobierno (PSOE-Sumar) fija por decreto un tope del 15% a la subida de la TUR del gas y un precio máximo de 19,55 euros para la bombona de butano.",
+   "source_name": "La Moncloa",
+   "source_url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/presidencia/paginas/2026/290926-decreto-crisis-oriente-medio.aspx",
+   "tier": 1,
+   "verified": "scraped",
+   "added_at": "2026-10-08"
+  },
+  {
+   "id": "psoe-tur_gas-20260929-x2",
+   "topic": "tur_gas",
+   "type": "declaracion",
+   "date": "2026-09-29",
+   "person": "González Gracia",
+   "role": "Diputado del Grupo Parlamentario Socialista",
+   "level": "nacional",
+   "quote": "Con el real decreto que hoy se ha aprobado se baja el IVA de la electricidad al 10 %, se topa la tarifa del gas y del butano, y se mantienen rebajas fiscales a los carburantes",
+   "context": "Presentación en el Pleno del Congreso de una proposición no de ley del Grupo Socialista sobre un instrumento europeo de contribución de las energéticas, el mismo día en que el Consejo de Ministros aprobó el RDL 25/2026.",
+   "stance": "na",
+   "rationale": "El PSOE defiende en el Congreso el tope a la tarifa regulada del gas y al butano aprobado por el Gobierno.",
+   "source_name": "Congreso de los Diputados (Diario de Sesiones n.º 208)",
+   "source_url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-208.PDF",
+   "tier": 1,
+   "verified": "scraped",
+   "added_at": "2026-10-08"
+  },
+  {
+   "id": "psoe-tur_gas-20260320-x",
+   "topic": "tur_gas",
+   "type": "declaracion",
+   "date": "2026-03-20",
+   "person": "Pedro Sánchez",
+   "role": "Presidente del Gobierno y secretario general del PSOE",
+   "level": "nacional",
+   "quote": "También se va a congelar el precio máximo del butano y el propano",
+   "context": "Comparecencia tras el Consejo de Ministros extraordinario que aprobó el Plan Integral de Respuesta a la Crisis en Oriente Medio (RDL 7/2026), según la crónica publicada por el PSOE.",
+   "stance": "na",
+   "rationale": "Sánchez anuncia la congelación del precio máximo de la bombona de butano.",
+   "source_name": "PSOE",
+   "source_url": "https://www.psoe.es/actualidad/noticias-actualidad/el-gobierno-aprueba-el-mayor-escudo-social-de-la-ue-para-responder-a-los-efectos-de-la-guerra-de-iran/",
+   "tier": 1,
+   "verified": "scraped",
+   "added_at": "2026-10-08"
+  },
+  {
+   "id": "psoe-bono_social-20260320-x",
+   "topic": "bono_social",
+   "type": "declaracion",
+   "date": "2026-03-20",
+   "person": "Pedro Sánchez",
+   "role": "Presidente del Gobierno y secretario general del PSOE",
+   "level": "nacional",
+   "quote": "Pedro Sánchez ha anunciado también la extensión hasta diciembre del bono social eléctrico",
+   "context": "Comparecencia tras el Consejo de Ministros extraordinario que aprobó el RDL 7/2026, que repuso hasta el 31 de diciembre de 2026 los descuentos del 42,5% y 57,5% tras la derogación del decreto del escudo social; texto de la crónica publicada por el PSOE.",
+   "stance": "a_favor",
+   "rationale": "Sánchez anuncia la prórroga hasta diciembre de 2026 de los descuentos reforzados del bono social.",
+   "source_name": "PSOE",
+   "source_url": "https://www.psoe.es/actualidad/noticias-actualidad/el-gobierno-aprueba-el-mayor-escudo-social-de-la-ue-para-responder-a-los-efectos-de-la-guerra-de-iran/",
+   "tier": 1,
+   "verified": "scraped",
+   "added_at": "2026-10-08"
+  },
+  {
+   "id": "psoe-bono_social-20260929-x",
+   "topic": "bono_social",
+   "type": "declaracion",
+   "date": "2026-09-29",
+   "person": "González Herdaro",
+   "role": "Diputada del Grupo Parlamentario Socialista",
+   "level": "nacional",
+   "quote": "Gracias a este Gobierno, se protege también a los hogares más vulnerables y a la industria, con descuentos extraordinarios como el bono social eléctrico, el incremento de las ayudas en el bono social térmico o la prohibición del corte de suministros básicos",
+   "context": "Intervención en el Pleno del Congreso en el debate de la moción de Podemos sobre los precios de la energía, el día en que se aprobó el tercer decreto anticrisis.",
+   "stance": "a_favor",
+   "rationale": "El PSOE reivindica los descuentos extraordinarios del bono social y la prohibición de cortes como parte de su escudo social.",
+   "source_name": "Congreso de los Diputados (Diario de Sesiones n.º 208)",
+   "source_url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-208.PDF",
+   "tier": 1,
+   "verified": "scraped",
+   "added_at": "2026-10-08"
+  },
+  {
+   "id": "psoe-bono_social-20260217-x",
+   "topic": "bono_social",
+   "type": "declaracion",
+   "date": "2026-02-17",
+   "person": "Ministerio para la Transición Ecológica y el Reto Demográfico",
+   "role": "Nota de prensa del MITECO (Gobierno de España)",
+   "level": "nacional",
+   "quote": "Plantea adaptar la normativa para limitar el acceso al bono social eléctrico y al bono social térmico a los hogares con rentas altas",
+   "context": "Aprobación de la Estrategia Nacional contra la Pobreza Energética 2026-2030, que también propone cerrar la brecha de cobertura del bono y ligarlo a la renta de los hogares.",
+   "stance": "ambiguo",
+   "rationale": "La estrategia busca más cobertura entre quienes lo necesitan pero restringir el acceso a rentas altas: no es una ampliación general de beneficiarios.",
+   "source_name": "MITECO",
+   "source_url": "https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/febrero/el-gobierno-aprueba-la-estrategia-nacional-contra-la-pobreza-ene.html",
+   "tier": 1,
+   "verified": "scraped",
+   "added_at": "2026-10-08"
+  },
+  {
+   "id": "pp-bono_social-20250308-x",
+   "topic": "bono_social",
+   "type": "declaracion",
+   "date": "2025-03-08",
+   "person": "Paloma Martín",
+   "role": "Vicesecretaria de Desarrollo Sostenible del PP",
+   "level": "nacional",
+   "quote": "Demanda restablecer los descuentos extraordinarios del bono social en 2025 del 65% para los consumidores vulnerables y del 80% para los vulnerables severos",
+   "context": "Nota de prensa del PP sobre su proposición no de ley de pobreza energética registrada en el Congreso (fecha según el nombre del documento).",
+   "stance": "a_favor",
+   "rationale": "El PP pide descuentos del bono social del 65% y 80%, por encima de los vigentes (42,5% y 57,5%).",
+   "source_name": "Partido Popular",
+   "source_url": "https://www.pp.es/sites/default/files/documentos/25.03.08.pnl_.pobrezaenergetica.pmartin.pdf",
+   "tier": 1,
+   "verified": "scraped",
+   "added_at": "2026-10-08"
+  },
+  {
+   "id": "pp-bono_social-20250308-x2",
+   "topic": "bono_social",
+   "type": "declaracion",
+   "date": "2025-03-08",
+   "person": "Paloma Martín",
+   "role": "Vicesecretaria de Desarrollo Sostenible del PP",
+   "level": "nacional",
+   "quote": "crear una tarifa social energética aplicable a los pequeños consumidores de electricidad, gas natural y GLP canalizado, de manera que suponga una ampliación y mejora del actual bono social eléctrico",
+   "context": "Nota de prensa del PP sobre su proposición no de ley de pobreza energética registrada en el Congreso.",
+   "stance": "a_favor",
+   "rationale": "El PP propone una tarifa social que amplíe el bono social a más consumidores y suministros.",
+   "source_name": "Partido Popular",
+   "source_url": "https://www.pp.es/sites/default/files/documentos/25.03.08.pnl_.pobrezaenergetica.pmartin.pdf",
+   "tier": 1,
+   "verified": "scraped",
+   "added_at": "2026-10-08"
+  },
+  {
+   "id": "pp-bono_social-20260326-x",
+   "topic": "bono_social",
+   "type": "voto",
+   "date": "2026-03-26",
+   "person": "Grupo Parlamentario Popular",
+   "role": "Grupo parlamentario",
+   "level": "nacional",
+   "quote": null,
+   "context": "Convalidación del RDL 7/2026 (plan anticrisis por la guerra de Irán, decreto ómnibus que incluye los descuentos del bono social y la prohibición de cortes). Convalidado con 175 votos a favor, 33 en contra (Vox) y 141 abstenciones, entre ellas la del PP.",
+   "stance": "ambiguo",
+   "rationale": "Abstención en un decreto ómnibus: no permite atribuir una posición sobre el bono social.",
+   "source_name": "ABC",
+   "source_url": "https://www.abc.es/espana/pp-abstendra-votacion-decreto-anticrisis-guerra-iran-20260326132256-nt.html",
+   "tier": 2,
+   "verified": "scraped",
+   "added_at": "2026-10-08"
+  },
+  {
+   "id": "vox-bono_social-20250325-x",
+   "topic": "bono_social",
+   "type": "declaracion",
+   "date": "2025-03-25",
+   "person": "Juanjo Aizcorbe",
+   "role": "Diputado del Grupo Parlamentario VOX",
+   "level": "nacional",
+   "quote": "Un aumento progresivo y gradual de las ayudas del bono social en función del número de hijos",
+   "context": "Medidas defendidas por Vox en el Pleno del Congreso al presentar su enmienda a la iniciativa del PNV sobre el acceso al bono social (texto de la nota de Vox).",
+   "stance": "a_favor",
+   "rationale": "Vox propone aumentar las ayudas del bono social según el número de hijos, sin cifra.",
+   "source_name": "VOX",
+   "source_url": "https://www.voxespana.es/grupo_parlamentario/actividad-parlamentaria/aizcorbe-reivindica-la-importancia-de-las-familias-y-exige-que-las-ayudas-del-bono-social-aumenten-progresivamente-segun-el-numero-de-hijos-20250325",
+   "tier": 1,
+   "verified": "scraped",
+   "added_at": "2026-10-08"
+  },
+  {
+   "id": "vox-bono_social-20260326-x",
+   "topic": "bono_social",
+   "type": "voto",
+   "date": "2026-03-26",
+   "person": "Grupo Parlamentario VOX",
+   "role": "Grupo parlamentario",
+   "level": "nacional",
+   "quote": null,
+   "context": "Convalidación del RDL 7/2026 (decreto ómnibus anticrisis que mantiene los descuentos del bono social y la prohibición de cortes). Vox fue el único grupo que votó en contra.",
+   "stance": "ambiguo",
+   "rationale": "Voto en contra de un decreto ómnibus: no permite atribuir un rechazo específico al bono social.",
+   "source_name": "ABC",
+   "source_url": "https://www.abc.es/espana/pp-abstendra-votacion-decreto-anticrisis-guerra-iran-20260326132256-nt.html",
+   "tier": 2,
+   "verified": "scraped",
+   "added_at": "2026-10-08"
+  },
+  {
+   "id": "sumar-bono_social-20260326-x",
+   "topic": "bono_social",
+   "type": "declaracion",
+   "date": "2026-03-26",
+   "person": "Aina Vidal Sáez",
+   "role": "Diputada del Grupo Parlamentario Plurinacional SUMAR",
+   "level": "nacional",
+   "quote": "¿Es radical impedir que a una familia le corten la luz o el gas?",
+   "context": "Intervención en el Pleno del Congreso en la convalidación del RDL 7/2026, que incluye el refuerzo del bono social y la prohibición de cortar suministros a hogares vulnerables.",
+   "stance": "a_favor",
+   "rationale": "Sumar defiende la prohibición de cortes de luz y gas incluida en el escudo social.",
+   "source_name": "Congreso de los Diputados (Diario de Sesiones n.º 176)",
+   "source_url": "https://www.congreso.es/public_oficiales/L15/CONG/DS/PL/DSCD-15-PL-176.PDF",
+   "tier": 1,
+   "verified": "scraped",
+   "added_at": "2026-10-08"
+  },
+  {
+   "id": "sumar-bono_social-20260309-x",
+   "topic": "bono_social",
+   "type": "declaracion",
+   "date": "2026-03-09",
+   "person": "Lara Hernández",
+   "role": "Coordinadora general de Sumar",
+   "level": "nacional",
+   "quote": "Hernández también ha expuesto la necesidad de que aumente el número de familias que perciben el bono social eléctrico",
+   "context": "Rueda de prensa en la que Sumar pidió al PSOE un escudo social más amplio por la guerra en Irán (frase en estilo indirecto del periodista).",
+   "stance": "a_favor",
+   "rationale": "Sumar pide que más familias reciban el bono social eléctrico.",
+   "source_name": "El País",
+   "source_url": "https://elpais.com/espana/2026-03-09/sumar-urge-al-psoe-a-aprobar-un-escudo-social-con-un-impuesto-a-las-energeticas-y-un-limite-al-precio-de-los-alimentos.html",
+   "tier": 2,
+   "verified": "scraped",
+   "added_at": "2026-10-08"
+  },
+  {
+   "id": "sumar-bono_social-20230707-x",
+   "topic": "bono_social",
+   "type": "programa",
+   "date": "2023-07-07",
+   "person": "Sumar",
+   "role": "Programa electoral",
+   "level": "nacional",
+   "quote": "Se reformará el bono social eléctrico y térmico para que la solicitud y la renovación sean automática, hasta que sea sustituido por la tarifa social.",
+   "context": "Programa electoral de Sumar para las generales del 23 de julio de 2023 (anterior a la XV legislatura; fecha aproximada de publicación, julio de 2023).",
+   "stance": "a_favor",
+   "rationale": "Sumar propone que el bono social se conceda y renueve de forma automática.",
+   "source_name": "Movimiento Sumar",
+   "source_url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+   "tier": 1,
+   "verified": "scraped",
+   "added_at": "2026-10-08"
+  },
+  {
+   "id": "sumar-bono_social-20230707-x2",
+   "topic": "bono_social",
+   "type": "programa",
+   "date": "2023-07-07",
+   "person": "Sumar",
+   "role": "Programa electoral",
+   "level": "nacional",
+   "quote": "tarifa social a coste cero para consumidores vulnerables",
+   "context": "Programa electoral de Sumar para el 23J: un consumo mínimo vital de 1.500 kWh/año que se convierte automáticamente en tarifa social a coste cero para consumidores vulnerables (anterior a la XV legislatura).",
+   "stance": "a_favor",
+   "rationale": "Sumar propone sustituir el bono por una tarifa social gratuita para el consumo mínimo vital de los hogares vulnerables, sin fijar un porcentaje de descuento.",
+   "source_name": "Movimiento Sumar",
+   "source_url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+   "tier": 1,
+   "verified": "scraped",
+   "added_at": "2026-10-08"
+  },
+  {
+   "id": "sumar-bono_social-20230707-x3",
+   "topic": "bono_social",
+   "type": "programa",
+   "date": "2023-07-07",
+   "person": "Sumar",
+   "role": "Programa electoral",
+   "level": "nacional",
+   "quote": "Se impedirá el corte de estos suministros a las familias y personas en situación de vulnerabilidad.",
+   "context": "Programa electoral de Sumar para el 23J, apartado de acceso garantizado a los suministros básicos (anterior a la XV legislatura).",
+   "stance": "a_favor",
+   "rationale": "Sumar propone prohibir los cortes de suministros básicos a hogares vulnerables.",
+   "source_name": "Movimiento Sumar",
+   "source_url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+   "tier": 1,
+   "verified": "scraped",
+   "added_at": "2026-10-08"
+  },
+  {
+   "id": "podemos-bono_social-20260309-x",
+   "topic": "bono_social",
+   "type": "declaracion",
+   "date": "2026-03-09",
+   "person": "Pablo Fernández",
+   "role": "Coportavoz de Podemos",
+   "level": "nacional",
+   "quote": "limitar el aumento de las tarifas de la luz y del gas a un máximo del 5%, así como prohibir el corte de suministros y mejorar los descuentos del bono social eléctrico",
+   "context": "Anuncio de una proposición de ley de Podemos frente a la crisis por la guerra en Irán (medidas resumidas por el periodista).",
+   "stance": "a_favor",
+   "rationale": "Podemos pide mejorar los descuentos del bono social y prohibir los cortes de suministro.",
+   "source_name": "El País",
+   "source_url": "https://elpais.com/espana/2026-03-09/sumar-urge-al-psoe-a-aprobar-un-escudo-social-con-un-impuesto-a-las-energeticas-y-un-limite-al-precio-de-los-alimentos.html",
+   "tier": 2,
+   "verified": "scraped",
+   "added_at": "2026-10-08"
+  },
+  {
+   "id": "podemos-tur_gas-20260309-x",
+   "topic": "tur_gas",
+   "type": "declaracion",
+   "date": "2026-03-09",
+   "person": "Pablo Fernández",
+   "role": "Coportavoz de Podemos",
+   "level": "nacional",
+   "quote": "limitar el aumento de las tarifas de la luz y del gas a un máximo del 5%, así como prohibir el corte de suministros y mejorar los descuentos del bono social eléctrico",
+   "context": "Anuncio de una proposición de ley de Podemos frente a la crisis por la guerra en Irán (medidas resumidas por el periodista).",
+   "stance": "na",
+   "rationale": "Podemos propone que las tarifas del gas no suban más de un 5%.",
+   "source_name": "El País",
+   "source_url": "https://elpais.com/espana/2026-03-09/sumar-urge-al-psoe-a-aprobar-un-escudo-social-con-un-impuesto-a-las-energeticas-y-un-limite-al-precio-de-los-alimentos.html",
+   "tier": 2,
+   "verified": "scraped",
+   "added_at": "2026-10-08"
+  },
+  {
+   "id": "podemos-bono_social-20260326-x",
+   "topic": "bono_social",
+   "type": "voto",
+   "date": "2026-03-26",
+   "person": "Grupo Parlamentario Mixto (diputados de Podemos)",
+   "role": "Grupo parlamentario",
+   "level": "nacional",
+   "quote": null,
+   "context": "Convalidación del RDL 7/2026 (decreto ómnibus anticrisis que incluye los descuentos del bono social y la prohibición de cortes). Podemos se abstuvo junto al PP; solo Vox votó en contra.",
+   "stance": "ambiguo",
+   "rationale": "Abstención en un decreto ómnibus, justificada por su rechazo a las rebajas fiscales, no al bono social.",
+   "source_name": "ABC",
+   "source_url": "https://www.abc.es/espana/pp-abstendra-votacion-decreto-anticrisis-guerra-iran-20260326132256-nt.html",
+   "tier": 2,
+   "verified": "scraped",
+   "added_at": "2026-10-08"
+  },
+  {
+   "id": "podemos-bono_social-20240524-x",
+   "topic": "bono_social",
+   "type": "programa",
+   "date": "2024-05-24",
+   "person": "Podemos",
+   "role": "Programa electoral",
+   "level": "nacional",
+   "quote": "Prohibiremos los cortes de suministros básicos de agua, luz y gas en las primeras residencias cuando el impago se deba a motivos ajenos a la voluntad de las personas, como la pobreza sobrevenida",
+   "context": "Programa de Podemos para las elecciones europeas del 9 de junio de 2024.",
+   "stance": "a_favor",
+   "rationale": "Podemos propone prohibir los cortes de suministros básicos por impago involuntario.",
+   "source_name": "Newtral (PDF del programa)",
+   "source_url": "https://www.newtral.es/wp-content/uploads/2024/05/Programa-PODEMOS-elecciones-europeas-2024.pdf?x95607",
+   "tier": 2,
+   "verified": "scraped",
+   "added_at": "2026-10-08"
+  }
+ ]
+}

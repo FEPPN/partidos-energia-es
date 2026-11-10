@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "verified_at": "2026-10-08",
+    "method": "Figures read directly from primary documents/datasets (CNMC PDFs downloaded and parsed, CNMC CKAN datastore API, INE Tempus API). No training memory used.",
+    "personas_rule": "personas = hogares x household_size.value, ALWAYS labelled as estimate. Do NOT apply to supply-point counts that exceed the number of households (see open_doubts)."
+  },
+  "household_size": {
+    "value": 2.49,
+    "ref_date": "2026-07-01",
+    "what": "Tamaño medio del hogar (personas residentes en viviendas familiares), Total Nacional",
+    "series": "INE Estadística Continua de Población (ECP), tabla 60132 - sucesora de la Encuesta Continua de Hogares",
+    "source": "https://www.ine.es/jaxiT3/Tabla.htm?t=60132",
+    "context": {
+      "hogares_total_espana": 19874860,
+      "poblacion_en_viviendas_familiares": 49409876,
+      "ref_date": "2026-07-01",
+      "source": "https://www.ine.es/jaxiT3/Tabla.htm?t=60131 (hogares) ; https://www.ine.es/jaxiT3/Tabla.htm?t=60130 (población)"
+    }
+  },
+  "rows": {
+    "impuestos_factura": {
+      "hogares": 19874860,
+      "hogares_basis": "INE: total hogares en viviendas familiares (every household pays electricity taxes/IVA). Use this as 'hogares'; the CNMC supply-point count below is NOT households.",
+      "personas_official": 49409876,
+      "personas_note": "Población en viviendas familiares (INE, official, not an estimate) - preferable to hogares x 2,49",
+      "what": "Hogares en España (INE). Puntos de suministro domésticos de electricidad 2.0TD: 29.679.050 (CNMC, 30/09/2025; de ellos 21.475.875 mercado libre + 8.203.175 PVPC). + gas: 7.717.169 clientes RL.1-RL.3 (≤50 MWh/año, CNMC, marzo 2026)",
+      "supply_points_electricity_2_0TD": 29679050,
+      "supply_points_electricity_ref_date": "2025-09-30",
+      "supply_points_electricity_source": "https://www.cnmc.es/sites/default/files/6717503.pdf",
+      "supply_points_electricity_location": "CNMC IS/DE/014/25 (cambios de comercializador, 3T 2025), Anexo I Tabla 5, p.34",
+      "supply_points_gas_RL1_RL3": 7717169,
+      "supply_points_gas_ref_date": "2026-03-31",
+      "supply_points_gas_source": "https://www.cnmc.es/sites/default/files/6807815.pdf",
+      "supply_points_gas_location": "CNMC IS/DE/006/26 Boletín mercado minorista gas 1T 2026, sección 7, Figura 3 (RL01 5.340.659 + RL02 2.183.458 + RL03 193.052, marzo 2026)",
+      "ref_date": "2026-07-01",
+      "source": "https://www.ine.es/jaxiT3/Tabla.htm?t=60131"
+    },
+    "bono_social": {
+      "hogares": 1716420,
+      "split": {
+        "vulnerable": 798134,
+        "vulnerable_severo": 918286,
+        "detail_marzo_2026": {
+          "V_FN": 282714, "V_IMV": 7044, "V_P": 46048, "V_UC": 462328,
+          "VS_FN": 165132, "VS_IMV": 35999, "VS_P": 28036, "VS_UC": 689119
+        },
+        "codes_note": "Categories per CNMC methodological note (FN, IMV, P, UC under RD-ley 6/2022); exact code meanings in 'Tabla conversiones grupos Bono social.pdf'"
+      },
+      "personas_estimate": 4273886,
+      "personas_estimate_note": "1.716.420 x 2,49 (estimación; probablemente a la baja, ya que familias numerosas son una categoría de acceso)",
+      "what": "Clientes (puntos de suministro) con bono social eléctrico, marzo 2026",
+      "ref_date": "2026-03",
+      "source": "https://data.cnmc.es/energia/energia-electrica/bono-social/estadistica-bono-social",
+      "source_api": "https://catalogodatos.cnmc.es/api/3/action/datastore_search?resource_id=007cdc32-68a7-41cf-b568-256d3e3d5999",
+      "dataset_updated": "2026-09-11"
+    },
+    "tur_gas": {
+      "hogares": 3139449,
+      "personas_estimate": 7817228,
+      "personas_estimate_note": "3.139.449 x 2,49 (estimación; techo, incluye algunos pequeños comercios y TUR vecinal)",
+      "what": "Clientes de gas natural a Tarifa de Último Recurso (39,5% de 7.951.379 clientes de gas; mercado libre 4.811.930), 31/03/2026",
+      "ref_date": "2026-03-31",
+      "source": "https://www.cnmc.es/sites/default/files/6807815.pdf",
+      "location": "CNMC IS/DE/006/26 Boletín trimestral mercado minorista gas 1T 2026, sección 3",
+      "previous": {"value": 3112066, "ref_date": "2025-12-31", "source": "https://www.cnmc.es/sites/default/files/6742152.pdf", "location": "Informe minorista gas y electricidad 2025 (IS/DE/027/26), p.19"}
+    },
+    "pvpc": {
+      "hogares": 8203175,
+      "personas_estimate": null,
+      "personas_estimate_note": "Not computed: supply points include second homes; 8.203.175 x 2,49 = 20,4M would be an upper bound only. If needed, label as 'hasta ~20 millones de personas'.",
+      "what": "Puntos de suministro domésticos (2.0TD) en PVPC/comercializador de referencia, 27,6% del segmento doméstico (mercado libre: 21.475.875), 30/09/2025",
+      "ref_date": "2025-09-30",
+      "source": "https://www.cnmc.es/sites/default/files/6717503.pdf",
+      "location": "CNMC IS/DE/014/25, Anexo I Tabla 5, p.34",
+      "latest_rounded": {"value_text": "aproximadamente 8,2 millones (27,4% de los consumidores domésticos)", "total_cor_all_segments": 8152796, "ref_date": "2025-12-31", "source": "https://www.cnmc.es/sites/default/files/6742152.pdf", "location": "Informe minorista gas y electricidad 2025 (IS/DE/027/26), pp.13 y 15"}
+    },
+    "butano": {
+      "hogares": null,
+      "what": "Hogares que usan bombona de butano",
+      "ref_date": null,
+      "source": null,
+      "note": "No official household count found (MITECO 29/09/2026 press release on butane price cap gives no household figure). '8 millones de hogares' appears only in an Endesa blog - not citable."
+    }
+  },
+  "pr_claim_8_millones": "FALSO para el bono social. '8 millones' corresponde al PVPC: ~8,2 millones de consumidores en el PVPC (CNMC, 31/12/2025; 8.203.175 domésticos a 30/09/2025). El bono social eléctrico lo reciben 1.716.420 hogares/puntos de suministro (CNMC, marzo 2026: 798.134 vulnerables + 918.286 vulnerables severos), es decir ~4,3 millones de personas estimadas. Además el bono social exige estar en PVPC, por eso se confunden. Otras coincidencias con '8 millones': los clientes totales de gas natural (7.951.379, mar 2026) y la cifra no oficial de hogares con butano.",
+  "open_doubts": [
+    "Puntos de suministro 2.0TD (29,68M) > hogares INE (19,87M): 2.0TD incluye segundas residencias, pequeños comercios y otros suministros ≤15 kW. NUNCA multiplicar 29,68M x 2,49 (daría 74M > población). Para 'impuestos en la factura' usar hogares INE (19,87M) y población en viviendas familiares (49,4M).",
+    "PVPC 8,2M y TUR 3,1M son puntos de suministro, no hogares estrictos (incluyen segundas residencias; TUR incluye pequeños comercios y 8.217 puntos TUR4-TUR11/vecinal). Presentarlos como 'suministros/contratos' o 'hasta X hogares'.",
+    "Gas RL.1-RL.3 (7,72M) es proxy de doméstico (≤50 MWh/año), incluye pequeño comercio; CNMC no publica gas 'doméstico' puro.",
+    "Último informe de cambios de comercializador con desglose doméstico es 3T 2025 (publicado jul 2026). Para 31/12/2025 solo hay cifra redondeada (8,2M, 27,4%) del Informe minorista 2025.",
+    "Bono social: el dato mensual cuenta clientes con bono aplicado; verificar con CNMC si 'clientes' = hogares (requisito vivienda habitual) antes de escribir 'hogares' sin matiz. Dato más reciente marzo 2026 (actualización semestral, 11/09/2026).",
+    "Significado exacto de los códigos FN/IMV/P/UC del bono social no verificado (PDF de conversiones no leído); el split V/VS sí es fiable.",
+    "INE: la Encuesta Continua de Hogares fue sustituida por la Estadística Continua de Población (tabla 60132); el valor 2,49 es a 1/07/2026."
+  ]
+}
