@@ -1,0 +1,260 @@
+{
+  "_meta": {
+    "note": "6 partiti nazionali (grill 8 ott 2026). URL per partito (slug), MAI per persona. h1_person = persona nell'H1 della pagina partito (candidato se ufficiale, altrimenti leader indiscusso; null se la leadership elettorale non è decisa -> H1 col solo partito). key_people = vertici nazionali che contano per il badge (verificati dagli agent di raccolta). Riverificare se verified_at > 1 mese durante la campagna.",
+    "legislature_start": "2023-08-17",
+    "updated_at": "2026-10-08"
+  },
+  "parties": [
+    {
+      "key": "PSOE",
+      "slug": "psoe",
+      "label": "PSOE",
+      "label_long": "Partido Socialista Obrero Español",
+      "candidate": "Pedro Sánchez",
+      "candidate_official": false,
+      "key_people": [
+        {
+          "name": "Pedro Sánchez",
+          "role": "Presidente del Gobierno y secretario general del PSOE; convocó las elecciones del 29 de noviembre el 5 de octubre de 2026"
+        },
+        {
+          "name": "Sara Aagesen",
+          "role": "Vicepresidenta tercera del Gobierno y ministra para la Transición Ecológica y el Reto Demográfico"
+        },
+        {
+          "name": "Carlos Cuerpo",
+          "role": "Vicepresidente primero y ministro de Economía, Comercio y Empresa"
+        },
+        {
+          "name": "Arcadi España",
+          "role": "Ministro de Hacienda y miembro de la Comisión Ejecutiva Federal del PSOE"
+        },
+        {
+          "name": "Patxi López",
+          "role": "Portavoz del Grupo Parlamentario Socialista en el Congreso"
+        },
+        {
+          "name": "Marc Pons",
+          "role": "Secretario de Transición Justa del PSOE; representa al PSOE en el debate energético del XIII Foro Solar (27-28 oct 2026)"
+        },
+        {
+          "name": "Rebeca Torró",
+          "role": "Coordinadora general de la campaña del PSOE para el 29-N"
+        }
+      ],
+      "verified_at": "2026-10-08",
+      "label_article": "el PSOE",
+      "label_long_article": "el Partido Socialista Obrero Español",
+      "h1_person": "Pedro Sánchez",
+      "h1_person_basis": "secretario general (candidatura formal: Comité Federal 17/10)"
+    },
+    {
+      "key": "PP",
+      "slug": "pp",
+      "label": "PP",
+      "label_long": "Partido Popular",
+      "candidate": "Alberto Núñez Feijóo",
+      "candidate_official": true,
+      "key_people": [
+        {
+          "name": "Alberto Núñez Feijóo",
+          "role": "Presidente del PP y candidato a la Presidencia del Gobierno (29-N)"
+        },
+        {
+          "name": "Miguel Tellado",
+          "role": "Secretario general del PP y director de campaña para el 29-N"
+        },
+        {
+          "name": "Ester Muñoz",
+          "role": "Portavoz del Grupo Popular en el Congreso y portavoz de campaña"
+        },
+        {
+          "name": "Borja Sémper",
+          "role": "Portavoz nacional del PP"
+        },
+        {
+          "name": "Alma Ezcurra",
+          "role": "Vicesecretaria de Coordinación Sectorial, responsable del programa electoral del 29-N"
+        },
+        {
+          "name": "Alberto Nadal",
+          "role": "Vicesecretario de Economía (y Desarrollo Sostenible) del PP"
+        },
+        {
+          "name": "Juan Bravo",
+          "role": "Vicesecretario de Hacienda, Vivienda e Infraestructuras del PP"
+        },
+        {
+          "name": "Guillermo Mariscal",
+          "role": "Portavoz de Energía del Grupo Popular en el Congreso"
+        }
+      ],
+      "verified_at": "2026-10-08",
+      "label_article": "el PP",
+      "label_long_article": "el Partido Popular",
+      "h1_person": "Alberto Núñez Feijóo",
+      "h1_person_basis": "candidato"
+    },
+    {
+      "key": "VOX",
+      "slug": "vox",
+      "label": "Vox",
+      "label_long": "Vox",
+      "candidate": "Santiago Abascal",
+      "candidate_official": true,
+      "key_people": [
+        {
+          "name": "Santiago Abascal",
+          "role": "Presidente de Vox y candidato a la Presidencia del Gobierno en las elecciones del 29 de noviembre de 2026"
+        },
+        {
+          "name": "Ignacio Garriga",
+          "role": "Secretario general de Vox"
+        },
+        {
+          "name": "Pepa Millán",
+          "role": "Portavoz del Grupo Parlamentario Vox en el Congreso"
+        },
+        {
+          "name": "José María Figaredo",
+          "role": "Portavoz adjunto de Vox en el Congreso (en marzo de 2026, citado como portavoz nacional de Economía)"
+        },
+        {
+          "name": "José Antonio Fúster",
+          "role": "Portavoz nacional de Vox"
+        },
+        {
+          "name": "Alberto Rodríguez Almeida",
+          "role": "Diputado por Las Palmas y portavoz de Vox en la Comisión de Industria del Congreso"
+        },
+        {
+          "name": "Ricardo Chamorro",
+          "role": "Diputado por Ciudad Real y portavoz de Vox en la Comisión de Agricultura; interviene por Vox en la Comisión de Transición Ecológica y en la comisión de investigación del apagón (no se ha encontrado un cargo formal de portavoz de Energía)"
+        }
+      ],
+      "verified_at": "2026-10-08",
+      "label_article": "Vox",
+      "label_long_article": "Vox",
+      "h1_person": "Santiago Abascal",
+      "h1_person_basis": "candidato"
+    },
+    {
+      "key": "SUMAR",
+      "slug": "sumar",
+      "label": "Sumar",
+      "label_long": "Sumar",
+      "candidate": null,
+      "candidate_official": false,
+      "key_people": [
+        {
+          "name": "Verónica Martínez Barbero",
+          "role": "Coordinadora de Movimiento Sumar (junto a Rosa Martínez, elegidas el 11 de julio de 2026) y portavoz del Grupo Parlamentario Plurinacional Sumar en el Congreso"
+        },
+        {
+          "name": "Rosa Martínez",
+          "role": "Coordinadora de Movimiento Sumar y secretaria de Estado de Derechos Sociales"
+        },
+        {
+          "name": "Ernest Urtasun",
+          "role": "Ministro de Cultura y portavoz de Sumar; propuesto por Comuns como número dos por Barcelona"
+        },
+        {
+          "name": "Yolanda Díaz",
+          "role": "Vicepresidenta segunda y ministra de Trabajo y Economía Social; no figura como candidata del Frente Amplio"
+        },
+        {
+          "name": "Pablo Bustinduy",
+          "role": "Ministro de Derechos Sociales, Consumo y Agenda 2030"
+        },
+        {
+          "name": "Mónica García",
+          "role": "Ministra de Sanidad y líder de Más Madrid"
+        },
+        {
+          "name": "Sira Rego",
+          "role": "Ministra de Juventud e Infancia (IU)"
+        },
+        {
+          "name": "Alberto Ibáñez",
+          "role": "Portavoz adjunto del Grupo Parlamentario Plurinacional Sumar en el Congreso (Compromís)"
+        },
+        {
+          "name": "Antonio Maíllo",
+          "role": "Coordinador federal de Izquierda Unida (socio del Frente Amplio)"
+        },
+        {
+          "name": "Ada Colau",
+          "role": "Exalcaldesa de Barcelona (Comuns); propuesta por Más Madrid el 7 de octubre de 2026 como aspirante del Frente Amplio a la Presidencia del Gobierno, sin ratificación del resto de socios"
+        },
+        {
+          "name": "Lara Hernández",
+          "role": "Excoordinadora general de Movimiento Sumar (marzo de 2025 - julio de 2026); dimitió el 1 de julio de 2026"
+        }
+      ],
+      "verified_at": "2026-10-08",
+      "note": "Frente Amplio (IU, Movimiento Sumar, Más Madrid, Comuns) senza candidato al 8 ott 2026; possibile lista unica con Podemos (scadenza coalizioni ~15 ott). Se si uniscono: una sola riga, rinominare label.",
+      "label_article": "Sumar",
+      "label_long_article": "Sumar",
+      "h1_person": null,
+      "h1_person_basis": "Frente Amplio sin candidato a 8/10"
+    },
+    {
+      "key": "PODEMOS",
+      "slug": "podemos",
+      "label": "Podemos",
+      "label_long": "Podemos",
+      "candidate": "Irene Montero",
+      "candidate_official": false,
+      "key_people": [
+        {
+          "name": "Ione Belarra",
+          "role": "Secretaria general de Podemos y diputada en el Congreso (Grupo Mixto)"
+        },
+        {
+          "name": "Irene Montero",
+          "role": "Eurodiputada y referente electoral de Podemos; propuso el 5 de octubre de 2026 unas primarias abiertas de la izquierda los días 14 y 15 de octubre, a las que se presentaría. A 8 de octubre de 2026 no hay acuerdo de coalición con Frente Amplio (Sumar) ni candidatura registrada"
+        },
+        {
+          "name": "Pablo Fernández",
+          "role": "Secretario de organización y portavoz de Podemos"
+        },
+        {
+          "name": "Javier Sánchez Serna",
+          "role": "Portavoz de Podemos en el Congreso (Grupo Mixto)"
+        },
+        {
+          "name": "Martina Velarde",
+          "role": "Diputada de Podemos en el Congreso (verificado a junio de 2025)"
+        }
+      ],
+      "verified_at": "2026-10-08",
+      "note": "Nel 2023 correva dentro Sumar: per Podemos contano solo prove dal 2024 (gruppo Mixto da dic 2023).",
+      "label_article": "Podemos",
+      "label_long_article": "Podemos",
+      "h1_person": null,
+      "h1_person_basis": "candidatura pendiente: primarias/coalición, plazo 16/10"
+    },
+    {
+      "key": "SALF",
+      "slug": "salf",
+      "label": "SALF",
+      "label_long": "Se Acabó La Fiesta",
+      "candidate": "Alvise Pérez",
+      "candidate_official": true,
+      "key_people": [
+        {
+          "name": "Alvise Pérez (Luis Pérez Fernández)",
+          "role": "Presidente de Se Acabó La Fiesta y eurodiputado (no inscritos); único eurodiputado del partido tras la salida de Diego Solier y Nora Junco en 2025"
+        }
+      ],
+      "verified_at": "2026-10-08",
+      "note": "Nessun deputato in Congreso (solo eurodeputati) -> nessun voto nominale in Congreso. Nessun programma nazionale verificabile al 8 ott 2026.",
+      "label_article": "SALF",
+      "label_long_article": "Se Acabó La Fiesta (SALF)",
+      "h1_person": "Alvise Pérez",
+      "h1_person_basis": "candidato (cabeza de lista por Madrid, anunciado 5/10)",
+      "hidden": true,
+      "hidden_note": "Nascosto su richiesta di Diego (8 ott 2026). Dati conservati."
+    }
+  ]
+}

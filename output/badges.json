@@ -1,0 +1,332 @@
+{
+ "PSOE|precio_luz_gas": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "PSOE|impuestos_factura": {
+  "badge": "ambiguo",
+  "change": false,
+  "dice_vota": false
+ },
+ "PSOE|bono_social": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "PSOE|nucleares": {
+  "badge": "en_contra",
+  "change": false,
+  "dice_vota": false
+ },
+ "PSOE|apagon_red": {
+  "badge": "sin_badge",
+  "change": false,
+  "dice_vota": false
+ },
+ "PSOE|renovables": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "PSOE|impuesto_energeticas": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "PSOE|carburantes": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "PSOE|data_center": {
+  "badge": "sin_badge",
+  "change": false,
+  "dice_vota": false
+ },
+ "PSOE|coche_electrico": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "PSOE|autoconsumo": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "PP|precio_luz_gas": {
+  "badge": "en_contra",
+  "change": false,
+  "dice_vota": false
+ },
+ "PP|impuestos_factura": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "PP|bono_social": {
+  "badge": "ambiguo",
+  "change": false,
+  "dice_vota": false
+ },
+ "PP|nucleares": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "PP|apagon_red": {
+  "badge": "sin_badge",
+  "change": false,
+  "dice_vota": false
+ },
+ "PP|renovables": {
+  "badge": "ambiguo",
+  "change": false,
+  "dice_vota": false
+ },
+ "PP|impuesto_energeticas": {
+  "badge": "en_contra",
+  "change": false,
+  "dice_vota": false
+ },
+ "PP|carburantes": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "PP|data_center": {
+  "badge": "sin_badge",
+  "change": false,
+  "dice_vota": false
+ },
+ "PP|coche_electrico": {
+  "badge": "en_contra",
+  "change": false,
+  "dice_vota": false
+ },
+ "PP|autoconsumo": {
+  "badge": "sin_declaraciones",
+  "change": false,
+  "dice_vota": false
+ },
+ "VOX|precio_luz_gas": {
+  "badge": "en_contra",
+  "change": false,
+  "dice_vota": false
+ },
+ "VOX|impuestos_factura": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "VOX|bono_social": {
+  "badge": "ambiguo",
+  "change": false,
+  "dice_vota": false
+ },
+ "VOX|nucleares": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "VOX|apagon_red": {
+  "badge": "sin_badge",
+  "change": false,
+  "dice_vota": false
+ },
+ "VOX|renovables": {
+  "badge": "en_contra",
+  "change": false,
+  "dice_vota": false
+ },
+ "VOX|impuesto_energeticas": {
+  "badge": "en_contra",
+  "change": false,
+  "dice_vota": false
+ },
+ "VOX|carburantes": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "VOX|data_center": {
+  "badge": "sin_badge",
+  "change": false,
+  "dice_vota": false
+ },
+ "VOX|coche_electrico": {
+  "badge": "en_contra",
+  "change": false,
+  "dice_vota": false
+ },
+ "VOX|autoconsumo": {
+  "badge": "ambiguo",
+  "change": false,
+  "dice_vota": false
+ },
+ "SUMAR|precio_luz_gas": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "SUMAR|impuestos_factura": {
+  "badge": "ambiguo",
+  "change": false,
+  "dice_vota": false
+ },
+ "SUMAR|bono_social": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "SUMAR|nucleares": {
+  "badge": "en_contra",
+  "change": false,
+  "dice_vota": false
+ },
+ "SUMAR|apagon_red": {
+  "badge": "sin_badge",
+  "change": false,
+  "dice_vota": false
+ },
+ "SUMAR|renovables": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "SUMAR|impuesto_energeticas": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "SUMAR|carburantes": {
+  "badge": "ambiguo",
+  "change": false,
+  "dice_vota": false
+ },
+ "SUMAR|data_center": {
+  "badge": "sin_badge",
+  "change": false,
+  "dice_vota": false
+ },
+ "SUMAR|coche_electrico": {
+  "badge": "sin_declaraciones",
+  "change": false,
+  "dice_vota": false
+ },
+ "SUMAR|autoconsumo": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "PODEMOS|precio_luz_gas": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "PODEMOS|impuestos_factura": {
+  "badge": "ambiguo",
+  "change": false,
+  "dice_vota": false
+ },
+ "PODEMOS|bono_social": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "PODEMOS|nucleares": {
+  "badge": "en_contra",
+  "change": false,
+  "dice_vota": false
+ },
+ "PODEMOS|apagon_red": {
+  "badge": "sin_badge",
+  "change": false,
+  "dice_vota": false
+ },
+ "PODEMOS|renovables": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "PODEMOS|impuesto_energeticas": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "PODEMOS|carburantes": {
+  "badge": "ambiguo",
+  "change": false,
+  "dice_vota": false
+ },
+ "PODEMOS|data_center": {
+  "badge": "sin_badge",
+  "change": false,
+  "dice_vota": false
+ },
+ "PODEMOS|coche_electrico": {
+  "badge": "ambiguo",
+  "change": false,
+  "dice_vota": false
+ },
+ "PODEMOS|autoconsumo": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "SALF|precio_luz_gas": {
+  "badge": "sin_declaraciones",
+  "change": false,
+  "dice_vota": false
+ },
+ "SALF|impuestos_factura": {
+  "badge": "sin_declaraciones",
+  "change": false,
+  "dice_vota": false
+ },
+ "SALF|bono_social": {
+  "badge": "sin_declaraciones",
+  "change": false,
+  "dice_vota": false
+ },
+ "SALF|nucleares": {
+  "badge": "a_favor",
+  "change": false,
+  "dice_vota": false
+ },
+ "SALF|apagon_red": {
+  "badge": "sin_badge",
+  "change": false,
+  "dice_vota": false
+ },
+ "SALF|renovables": {
+  "badge": "ambiguo",
+  "change": false,
+  "dice_vota": false
+ },
+ "SALF|impuesto_energeticas": {
+  "badge": "sin_declaraciones",
+  "change": false,
+  "dice_vota": false
+ },
+ "SALF|carburantes": {
+  "badge": "sin_declaraciones",
+  "change": false,
+  "dice_vota": false
+ },
+ "SALF|data_center": {
+  "badge": "sin_badge",
+  "change": false,
+  "dice_vota": false
+ },
+ "SALF|coche_electrico": {
+  "badge": "sin_declaraciones",
+  "change": false,
+  "dice_vota": false
+ },
+ "SALF|autoconsumo": {
+  "badge": "sin_declaraciones",
+  "change": false,
+  "dice_vota": false
+ }
+}

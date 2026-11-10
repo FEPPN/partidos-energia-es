@@ -1,0 +1,218 @@
+{
+  "_meta": {
+    "note": "11 temi decisi con Diego (grill 8 ott 2026). 'proposition' = proposta secca neutra su cui si calcola il badge (A favor / En contra / Ambiguo / Sin declaraciones). proposition = null -> tema SENZA badge, solo timeline. Le proposition sono BOZZE da validare col team prima della pubblicazione.",
+    "proposition_status": "borrador",
+    "updated_at": "2026-10-08"
+  },
+  "topics": [
+    {
+      "key": "precio_luz_gas",
+      "group": "factura",
+      "label": "Precio de la luz y el gas",
+      "label_short": "Precio luz y gas",
+      "proposition": "Intervenir el mercado para limitar el precio de la luz y el gas (por ejemplo, con un tope al gas como la «excepción ibérica»)",
+      "query_keywords": [
+        "precio de la luz",
+        "tope al gas",
+        "excepción ibérica",
+        "factura de la luz",
+        "PVPC"
+      ],
+      "exclude_context": [],
+      "title_label": "el precio de la luz y el gas",
+      "question_short": "¿Intervenir el mercado para topar el precio de la luz y el gas?"
+    },
+    {
+      "key": "impuestos_factura",
+      "group": "factura",
+      "label": "Impuestos en la factura (IVA de la luz y el gas)",
+      "label_short": "IVA e impuestos factura",
+      "proposition": "Rebajar de forma permanente el IVA y los impuestos de la factura de la luz y el gas",
+      "query_keywords": [
+        "IVA de la luz",
+        "impuesto eléctrico",
+        "IVA del gas",
+        "rebaja fiscal factura"
+      ],
+      "exclude_context": [],
+      "title_label": "los impuestos de la factura de la luz y el gas",
+      "question_short": "¿Bajar el IVA de la luz y el gas de forma permanente?"
+    },
+    {
+      "key": "bono_social",
+      "group": "factura",
+      "label": "Bono social y pobreza energética",
+      "label_short": "Bono social",
+      "proposition": "Prorrogar o ampliar los descuentos del bono social eléctrico",
+      "query_keywords": [
+        "bono social",
+        "pobreza energética",
+        "consumidores vulnerables"
+      ],
+      "exclude_context": [],
+      "title_label": "el bono social y la pobreza energética",
+      "question_short": "¿Prorrogar o ampliar el bono social?"
+    },
+    {
+      "key": "tur_gas",
+      "group": "factura",
+      "label": "Tarifa regulada del gas (TUR)",
+      "label_short": "TUR gas",
+      "proposition": null,
+      "query_keywords": [
+        "TUR gas",
+        "tarifa de último recurso gas",
+        "tope TUR",
+        "bombona de butano"
+      ],
+      "exclude_context": [],
+      "title_label": "la tarifa regulada del gas",
+      "question_short": "¿Qué proponen sobre la tarifa regulada del gas (TUR)?",
+      "note": "Aggiunto col pivot 'La factura en juego' (8 ott 2026): le domande sono in questions.json."
+    },
+    {
+      "key": "nucleares",
+      "group": "modelo",
+      "label": "Centrales nucleares",
+      "label_short": "Nucleares",
+      "proposition": "Derogar el calendario de cierre de las centrales nucleares (2027-2035)",
+      "query_keywords": [
+        "nucleares",
+        "Almaraz",
+        "cierre nuclear",
+        "energía nuclear"
+      ],
+      "exclude_context": [
+        "arma nuclear",
+        "armas nucleares",
+        "amenaza nuclear",
+        "Irán nuclear",
+        "programa nuclear iraní",
+        "disuasión nuclear"
+      ],
+      "title_label": "las centrales nucleares",
+      "question_short": "¿Derogar el calendario de cierre de las nucleares?"
+    },
+    {
+      "key": "apagon_red",
+      "group": "modelo",
+      "label": "Apagón y red eléctrica",
+      "label_short": "Apagón y red",
+      "proposition": null,
+      "query_keywords": [
+        "apagón",
+        "28 de abril",
+        "Red Eléctrica",
+        "seguridad de suministro",
+        "red eléctrica"
+      ],
+      "exclude_context": [
+        "apagón informativo",
+        "apagón analógico",
+        "apagón digital"
+      ],
+      "title_label": "el apagón y la red eléctrica",
+      "question_short": "¿Qué dicen sobre el apagón y la red eléctrica?"
+    },
+    {
+      "key": "renovables",
+      "group": "modelo",
+      "label": "Renovables y territorio",
+      "label_short": "Renovables",
+      "proposition": "Acelerar el despliegue de las energías renovables (solar y eólica)",
+      "query_keywords": [
+        "renovables",
+        "placas solares",
+        "eólica",
+        "macroplantas",
+        "fotovoltaica"
+      ],
+      "exclude_context": [],
+      "title_label": "las energías renovables",
+      "question_short": "¿Acelerar las renovables?"
+    },
+    {
+      "key": "impuesto_energeticas",
+      "group": "modelo",
+      "label": "Impuesto a las energéticas",
+      "label_short": "Impuesto energéticas",
+      "proposition": "Mantener o crear un impuesto sobre los beneficios extraordinarios de las empresas energéticas",
+      "query_keywords": [
+        "impuesto a las energéticas",
+        "gravamen energéticas",
+        "beneficios caídos del cielo",
+        "impuesto extraordinario energéticas"
+      ],
+      "exclude_context": [],
+      "title_label": "el impuesto a las energéticas",
+      "question_short": "¿Un impuesto a los beneficios extra de las energéticas?"
+    },
+    {
+      "key": "carburantes",
+      "group": "factura",
+      "label": "Carburantes (gasolina y diésel)",
+      "label_short": "Carburantes",
+      "proposition": "Rebajar los impuestos sobre los carburantes (gasolina y diésel)",
+      "query_keywords": [
+        "carburantes",
+        "precio gasolina",
+        "impuesto hidrocarburos",
+        "diésel"
+      ],
+      "exclude_context": [],
+      "title_label": "los carburantes",
+      "question_short": "¿Bajar los impuestos de la gasolina y el diésel?"
+    },
+    {
+      "key": "data_center",
+      "group": "modelo",
+      "label": "Centros de datos",
+      "label_short": "Centros de datos",
+      "proposition": null,
+      "query_keywords": [
+        "centros de datos",
+        "data center",
+        "acceso a la red centros de datos"
+      ],
+      "exclude_context": [],
+      "title_label": "los centros de datos",
+      "question_short": "¿Qué dicen sobre los centros de datos?"
+    },
+    {
+      "key": "coche_electrico",
+      "group": "modelo",
+      "label": "Coche eléctrico",
+      "label_short": "Coche eléctrico",
+      "proposition": "Mantener la prohibición de vender coches nuevos de combustión a partir de 2035",
+      "query_keywords": [
+        "coche eléctrico",
+        "motor de combustión 2035",
+        "prohibición coches combustión",
+        "vehículo eléctrico"
+      ],
+      "exclude_context": [],
+      "title_label": "el coche eléctrico",
+      "question_short": "¿Mantener el fin del coche de combustión en 2035?"
+    },
+    {
+      "key": "autoconsumo",
+      "group": "factura",
+      "label": "Autoconsumo",
+      "label_short": "Autoconsumo",
+      "proposition": "Ampliar las ayudas y facilidades para el autoconsumo",
+      "query_keywords": [
+        "autoconsumo",
+        "placas solares en casa",
+        "comunidades energéticas",
+        "autoconsumo compartido"
+      ],
+      "exclude_context": [],
+      "title_label": "el autoconsumo",
+      "question_short": "¿Más ayudas al autoconsumo?"
+    }
+  ],
+  "groups": {
+    "factura": "Tu factura",
+    "modelo": "Modelo energético"
+  }
+}

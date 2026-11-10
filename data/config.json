@@ -1,0 +1,11 @@
+{
+  "tool_name": "[NOMBRE TOOL]",
+  "base_path": "/partidos-politicos-energia/",
+  "site": "https://www.papernest.es",
+  "election_label": "Elecciones generales del 29 de noviembre de 2026",
+  "legislature_start": "2023-08-17",
+  "current_window_days": 180,
+  "party_min_date": { "PODEMOS": "2024-01-01" },
+  "corrections_email": "[EMAIL CORRECCIONES]",
+  "_note": "tool_name, base_path e corrections_email sono placeholder: li decide il team prima di pubblicare. Cambiarli qui e rilanciare build.py."
+}

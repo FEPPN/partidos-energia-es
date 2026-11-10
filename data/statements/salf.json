@@ -1,0 +1,240 @@
+{
+  "party": "SALF",
+  "collected_at": "2026-10-08",
+  "key_people_verified": [
+    {
+      "name": "Alvise Pérez (Luis Pérez Fernández)",
+      "role": "Presidente de Se Acabó La Fiesta y eurodiputado (no inscritos); único eurodiputado del partido tras la salida de Diego Solier y Nora Junco en 2025",
+      "source_url": "https://www.europarl.europa.eu/meps/es/257019/ALVISE_PEREZ/main-activities/plenary-speeches"
+    }
+  ],
+  "candidate": {
+    "name": "Alvise Pérez",
+    "official": true,
+    "source_url": "https://www.infobae.com/espana/agencias/2026/10/05/alvise-anuncia-que-se-presenta-por-madrid-a-las-elecciones-generales-del-29-de-noviembre/"
+  },
+  "statements": [
+    {
+      "id": "salf-nucleares-20260304-a",
+      "topic": "nucleares",
+      "type": "programa",
+      "date": "2026-03-04",
+      "person": "Se Acabó La Fiesta",
+      "role": "Programa electoral autonómico (Contrato Electoral SALF Castilla y León 2026)",
+      "level": "regional",
+      "quote": "Desde Castilla y León exigiremos al Gobierno de España que paralice el calendario de cierres nucleares. La nuclear es energía limpia, firme y barata.",
+      "context": "Capítulo «Energía y Campo» del programa de SALF para las elecciones autonómicas de Castilla y León del 15 de marzo de 2026 (documento ya publicado el 4 de marzo de 2026, según The Objective).",
+      "stance": "a_favor",
+      "rationale": "Pide expresamente paralizar el calendario de cierre de las centrales nucleares.",
+      "source_name": "Se Acabó La Fiesta (web oficial)",
+      "source_url": "https://www.seacabolafiesta.com/images/Contrato_Electoral_CyL.pdf",
+      "tier": 1,
+      "verified": "scraped",
+      "added_at": "2026-10-08"
+    },
+    {
+      "id": "salf-nucleares-20250429-a",
+      "topic": "nucleares",
+      "type": "declaracion",
+      "date": "2025-04-29",
+      "person": "Alvise Pérez",
+      "role": "Eurodiputado y líder de Se Acabó La Fiesta",
+      "level": "nacional",
+      "quote": "Acabemos con el sectarismo y volvamos a las energías del sentido común, nuclear incluida.",
+      "context": "Publicación en su cuenta oficial de X al día siguiente del apagón del 28 de abril de 2025.",
+      "stance": "a_favor",
+      "rationale": "Reclama recuperar la energía nuclear en el mix eléctrico español, en sentido contrario al cierre programado, aunque no menciona expresamente el calendario.",
+      "source_name": "X (@Alviseperez)",
+      "source_url": "https://x.com/Alviseperez/status/1917136679183519758",
+      "tier": 1,
+      "verified": "scraped",
+      "added_at": "2026-10-08"
+    },
+    {
+      "id": "salf-nucleares-20250113-a",
+      "topic": "nucleares",
+      "type": "declaracion",
+      "date": "2025-01-13",
+      "person": "Alvise Pérez",
+      "role": "Eurodiputado y líder de Se Acabó La Fiesta",
+      "level": "nacional",
+      "quote": "la energía nuclear ofrece una solución única que garantiza tanto la seguridad energética como la reducción de las emisiones de carbono",
+      "context": "Pregunta escrita E-000095/2025 a la Comisión Europea, firmada por Alvise Pérez, Diego Solier y Nora Junco (entonces eurodiputados de SALF), sobre el papel de la nuclear en la UE; versión en español publicada por el Parlamento Europeo.",
+      "stance": "ambiguo",
+      "rationale": "Defiende la nuclear en el mix energético de la UE, pero no se pronuncia sobre el calendario de cierre de las centrales españolas.",
+      "source_name": "Parlamento Europeo",
+      "source_url": "https://www.europarl.europa.eu/doceo/document/E-10-2025-000095_ES.html",
+      "tier": 1,
+      "verified": "scraped",
+      "added_at": "2026-10-08"
+    },
+    {
+      "id": "salf-apagon_red-20260624-a",
+      "topic": "apagon_red",
+      "type": "declaracion",
+      "date": "2026-06-24",
+      "person": "Alvise Pérez",
+      "role": "Eurodiputado y líder de Se Acabó La Fiesta",
+      "level": "nacional",
+      "quote": "vamos a forzar lo necesario para que este Gobierno pague por el apagón de 22 horas que sufrió toda España.",
+      "context": "Publicación en su cuenta oficial de X en la que pide responsabilidades al Gobierno por el apagón del 28 de abril de 2025.",
+      "stance": "na",
+      "rationale": "Tema sin proposición: atribuye la responsabilidad política del apagón al Gobierno.",
+      "source_name": "X (@Alviseperez)",
+      "source_url": "https://x.com/Alviseperez/status/2069776887363035278",
+      "tier": 1,
+      "verified": "scraped",
+      "added_at": "2026-10-08"
+    },
+    {
+      "id": "salf-apagon_red-20250428-a",
+      "topic": "apagon_red",
+      "type": "declaracion",
+      "date": "2025-04-28",
+      "person": "Alvise Pérez",
+      "role": "Eurodiputado y líder de Se Acabó La Fiesta",
+      "level": "nacional",
+      "quote": "Este apagón es una advertencia, un experimento perverso para que entreguemos nuestra libertad económica",
+      "context": "Vídeo difundido en sus redes durante el apagón del 28 de abril de 2025, en el que vincula el apagón con la eliminación del dinero en efectivo; recogido por la Cadena SER el 4 de mayo de 2025.",
+      "stance": "na",
+      "rationale": "Tema sin proposición: presenta el apagón como un plan deliberado relacionado con el dinero en efectivo, sin aportar pruebas.",
+      "source_name": "Cadena SER",
+      "source_url": "https://cadenaser.com/nacional/2025/05/04/el-apagon-un-caldo-de-cultivo-perfecto-para-los-agitadores-y-la-extrema-derecha-alvise-perez-vito-quiles-y-vox-cadena-ser/",
+      "tier": 2,
+      "verified": "scraped",
+      "added_at": "2026-10-08"
+    },
+    {
+      "id": "salf-renovables-20260304-a",
+      "topic": "renovables",
+      "type": "programa",
+      "date": "2026-03-04",
+      "person": "Se Acabó La Fiesta",
+      "role": "Programa electoral autonómico (Contrato Electoral SALF Castilla y León 2026)",
+      "level": "regional",
+      "quote": "Renovables sí, barra libre no: Ordenaremos el despliegue de eólicas y fotovoltaicas para que no arrasen suelo agrario productivo.",
+      "context": "Capítulo «Energía y Campo» del programa de SALF para las autonómicas de Castilla y León de 2026; en otro apartado el mismo programa dice «Agilizaremos la tramitación de proyectos de energía renovable, pero ordenando su implantación».",
+      "stance": "ambiguo",
+      "rationale": "Acepta las renovables y su tramitación ágil, pero condiciona su despliegue a limitaciones territoriales.",
+      "source_name": "Se Acabó La Fiesta (web oficial)",
+      "source_url": "https://www.seacabolafiesta.com/images/Contrato_Electoral_CyL.pdf",
+      "tier": 1,
+      "verified": "scraped",
+      "added_at": "2026-10-08"
+    },
+    {
+      "id": "salf-renovables-20250429-a",
+      "topic": "renovables",
+      "type": "declaracion",
+      "date": "2025-04-29",
+      "person": "Alvise Pérez",
+      "role": "Eurodiputado y líder de Se Acabó La Fiesta",
+      "level": "nacional",
+      "quote": "“La falta de centrales térmicas y el exceso de generadores solares y eólicos hacen de España un sistema extremadamente frágil a caídas de red y ciberataques” A las 12:30 horas (apagón) el 78% venía de fuentes renovables y el ciclo combinado (gas) apenas el 3,3% del total. Acabemos con el sectarismo y volvamos a las energías del sentido común, nuclear incluida.",
+      "context": "Publicación en su cuenta oficial de X tras el apagón del 28 de abril de 2025; la primera frase aparece entre comillas en el original, sin indicar su autor.",
+      "stance": "ambiguo",
+      "rationale": "Asocia la fragilidad del sistema al peso de la solar y la eólica, pero no se pronuncia expresamente sobre frenar o acelerar su despliegue.",
+      "source_name": "X (@Alviseperez)",
+      "source_url": "https://x.com/Alviseperez/status/1917136679183519758",
+      "tier": 1,
+      "verified": "scraped",
+      "added_at": "2026-10-08"
+    },
+    {
+      "id": "salf-data_center-20260615-a",
+      "topic": "data_center",
+      "type": "declaracion",
+      "date": "2026-06-15",
+      "person": "Alvise Pérez",
+      "role": "Eurodiputado (no inscritos) y líder de Se Acabó La Fiesta",
+      "level": "nacional",
+      "quote": "¿Tiene previsto la Comisión reconocer la energía nuclear como una energía sostenible en el futuro etiquetado de los centros de datos, de conformidad con el principio de neutralidad tecnológica y la petición de los diez Estados miembros firmantes de la carta de 26 de mayo de 2026?",
+      "context": "Pregunta escrita E-002448/2026 a la Comisión sobre la Ley de desarrollo de la computación en la nube y la IA, encabezada por Sarah Knafo (ESN) y cofirmada por Alvise Pérez junto a otros 12 eurodiputados; versión en español publicada por el Parlamento Europeo.",
+      "stance": "na",
+      "rationale": "Tema sin proposición: pide que los centros de datos alimentados con energía nuclear no queden penalizados en el etiquetado de sostenibilidad de la UE.",
+      "source_name": "Parlamento Europeo",
+      "source_url": "https://www.europarl.europa.eu/doceo/document/E-10-2026-002448_ES.html",
+      "tier": 1,
+      "verified": "scraped",
+      "added_at": "2026-10-08"
+    },
+    {
+      "id": "salf-data_center-20260304-a",
+      "topic": "data_center",
+      "type": "programa",
+      "date": "2026-03-04",
+      "person": "Se Acabó La Fiesta",
+      "role": "Programa electoral autonómico (Contrato Electoral SALF Castilla y León 2026)",
+      "level": "regional",
+      "quote": "Castilla y León disfruta de una situación privilegiada para liderar la economía del dato en el sur de Europa, gracias a sus abundantes recursos hídricos, temperaturas bajas que reducen drásticamente los costes energéticos de refrigeración en centros de datos",
+      "context": "Medida «Impulso a la economía y a la industria del dato» del programa de SALF para las autonómicas de Castilla y León de 2026.",
+      "stance": "na",
+      "rationale": "Tema sin proposición: propone atraer centros de datos a Castilla y León.",
+      "source_name": "Se Acabó La Fiesta (web oficial)",
+      "source_url": "https://www.seacabolafiesta.com/images/Contrato_Electoral_CyL.pdf",
+      "tier": 1,
+      "verified": "scraped",
+      "added_at": "2026-10-08"
+    }
+  ],
+  "gaps": [
+    {
+      "topic": "precio_luz_gas",
+      "note": "Ninguna declaración nacional literal con fuente tier1/2 sobre intervención del mercado o tope al gas tras unas 40 búsquedas. El programa autonómico de CyL 2026 solo vincula el cierre nuclear con el precio de la luz."
+    },
+    {
+      "topic": "impuestos_factura",
+      "note": "Ninguna declaración literal con fuente tier1/2. Existe un vídeo en Instagram/Facebook de Alvise (junio 2026) que menciona el IVA de la luz, pero son dominios tier3 y el texto del post de X equivalente no trata el IVA."
+    },
+    {
+      "topic": "bono_social",
+      "note": "Ninguna declaración nacional encontrada."
+    },
+    {
+      "topic": "impuesto_energeticas",
+      "note": "Ninguna declaración nacional encontrada."
+    },
+    {
+      "topic": "carburantes",
+      "note": "Dos pistas sin fuente válida: (1) según cuentas de SALF en Instagram (3 oct 2026), Alvise se sumó a una iniciativa de 20 eurodiputados para que los Estados puedan bajar el IVA de la gasolina; no se encontró el documento del Parlamento Europeo ni prensa tier1/2. (2) Cita sobre el combustible «a dos euros el litro» tras reunirse con Saddam Haftar (sept. 2026), solo en Forbes (dominio fuera de lista, basada en comunicado de SALF). Revisar durante la campaña."
+    },
+    {
+      "topic": "coche_electrico",
+      "note": "Ninguna declaración nacional ni voto del Parlamento Europeo de Alvise localizado con fuente tier1/2."
+    },
+    {
+      "topic": "autoconsumo",
+      "note": "Ninguna declaración encontrada. El programa de CyL 2026 solo menciona macroplantas en cubiertas industriales (no autoconsumo)."
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://forbes.co/2026/09/30/actualidad/alvise-perez-se-reunio-con-saddam-haftar-en-dubai-en-defensa-de-los-intereses-de-repsol-en-libia/",
+      "reason": "Dominio fuera de source_tiers; nota basada en un comunicado de prensa de SALF; ningún medio tier1/2 reproduce la cita."
+    },
+    {
+      "url": "https://www.instagram.com/p/DeCIBehiKR4/",
+      "reason": "Tier3 (Instagram, cuenta regional de SALF): iniciativa sobre el IVA de la gasolina sin documento oficial localizado."
+    },
+    {
+      "url": "https://x.com/Alviseperez/status/1917138934737313921",
+      "reason": "Comentario irónico sobre una charla antinuclear cancelada; no añade posición distinta a la publicación del mismo día ya incluida."
+    },
+    {
+      "url": "https://theobjective.com/wp-content/uploads/2026/03/Programa-electoral-CyL-de-Alvise-Pe%CC%81rez.pdf",
+      "reason": "Copia del programa CyL con referencias a Aragón; se usa la versión oficial de seacabolafiesta.com."
+    },
+    {
+      "url": "https://www.eldiario.es/tecnologia/diputado-rebotado-grupo-alvise-sera-voz-clave-proxima-gran-ley-ia-europea_1_13484944.html",
+      "reason": "Se refiere a un eurodiputado que ya no pertenece a SALF."
+    },
+    {
+      "url": "https://www.elmundo.es/economia/2026/05/06/69fb13bafc6c8301798b4587.html",
+      "reason": "Informe de la Comisión de Peticiones del PE sobre Almaraz (mayo 2026): votación en comisión, sin voto nominal de SALF."
+    },
+    {
+      "url": "https://www.politicaelectoral.com/es/espana/generales-2026/nacional/se-acabo-la-fiesta",
+      "reason": "Tier3 (fichas de programa proyectadas, no oficiales)."
+    }
+  ]
+}

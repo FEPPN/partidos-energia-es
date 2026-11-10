@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hub partiti × energia: 5 proposte</title>
+<style>
+:root{--p:#5a52ff;--p-soft:#eeedff;--ink:#15151f;--ink2:#3c3d4f;--mute:#6d6f82;--line:#e4e4ec;--bg:#f6f6fa;--ok:#14a05a;--ko:#e0383e}
+*{box-sizing:border-box}
+body{margin:0;font-family:Avenir,"Avenir Next","Nunito Sans","Segoe UI",system-ui,sans-serif;color:var(--ink);background:#fff;line-height:1.55}
+.w{max-width:1080px;margin:0 auto;padding:0 16px}
+header{background:var(--ink);color:#fff;padding:40px 0 32px}
+header p{color:#c9c9d6;max-width:760px}
+h1{font-size:38px;line-height:44px;margin:0 0 10px}
+h2{font-size:26px;margin:56px 0 12px}
+h3{font-size:19px;margin:24px 0 8px}
+p,li{font-size:16px;color:var(--ink2)}
+a{color:var(--p)}
+.tag{display:inline-block;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--p)}
+.box{background:var(--bg);border-radius:12px;padding:18px 20px;margin:16px 0}
+.box--p{background:var(--p-soft)}
+.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:stretch;margin:16px 0}
+.flow div{flex:1;min-width:150px;background:#fff;border:1px solid var(--line);border-top:4px solid var(--p);border-radius:10px;padding:12px}
+.flow b{display:block;font-size:13px;color:var(--p)}
+.flow span{font-size:14px;color:var(--ink2)}
+table{width:100%;border-collapse:collapse;font-size:14px;margin:12px 0}
+th,td{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left;vertical-align:top}
+th{font-size:13px;color:var(--mute)}
+.c{text-align:center}
+.prop{border:1px solid var(--line);border-radius:14px;padding:20px;margin:20px 0}
+.prop header{all:unset;display:flex;justify-content:space-between;gap:12px;align-items:baseline;flex-wrap:wrap}
+.prop h3{margin:0;font-size:22px}
+.prop img{width:100%;border:1px solid var(--line);border-radius:10px;margin:12px 0}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.pro li::marker{color:var(--ok)}.con li::marker{color:var(--ko)}
+.reco{border:2px solid var(--p);border-radius:14px;padding:20px 22px;margin:20px 0}
+.scroll{overflow-x:auto}
+.btn{display:inline-block;background:var(--p);color:#fff;text-decoration:none;font-weight:800;padding:8px 14px;border-radius:999px;font-size:14px}
+@media(max-width:720px){.cols{grid-template-columns:1fr}h1{font-size:30px;line-height:36px}}
+</style>
+</head>
+<body>
+<header><div class="w">
+<span class="tag" style="color:#a9a6ff">Partiti × energia · ES · 8 ott 2026</span>
+<h1>Pagina hub: analisi UX e 5 proposte visuali</h1>
+<p>I 5 prototipi usano i dati reali (137 dichiarazioni e voti) e sono navigabili: filtri, popup e selettori funzionano. Vincoli visivi: font papernest e colore primario #5a52ff, nient'altro dal Design System CAT. Riferimenti: la diretta di SkyTG24 e 29nov.es.</p>
+</div></header>
+
+<main class="w">
+<div class="reco" style="margin-top:32px"><span class="tag">Aggiornamento · direzione scelta</span>
+<h3 style="margin-top:4px">05 v2 · Portada</h3>
+<p>Parte dalla 05 e aggiunge:</p>
+<ul>
+<li>il <b>titolo che cambia</b> della 02, con le risposte dei 6 partiti subito sotto;</li>
+<li>il <b>filtro partiti "a scheda elettorale"</b>, che vale per tutta la pagina;</li>
+<li>i <b>dischi del Marcador</b> nella "foto", con il pannello delle prove al clic;</li>
+<li>il modulo <b>Cara a cara</b> prima di "¿Eres periodista?".</li>
+</ul>
+<p><a class="btn" href="05-portada-v2.html">Apri la 05 v2</a></p></div>
+
+<h2>Round 2 · 5 concept a mano libera</h2>
+<p>Qui c'era piena libertà visiva. Ogni concept prova un modo diverso di raccontare gli stessi dati. I punti fermi restano tre: citazione letterale con fonte sempre raggiungibile, nessuna foto dei politici (per i diritti d'immagine), font papernest.</p>
+<table>
+<tr><th>Concept</th><th>Metafora</th><th>Cosa sperimenta</th><th>Dove rende di più</th></tr>
+<tr><td><a href="06-tira-y-afloja.html"><b>06 Tira y afloja</b></a></td><td>Tiro alla fune: i partiti tirano verso il Sí o verso il No</td><td>Animazione allo scroll, il "nodo" si sposta verso chi vince, panchina per chi non si è espresso</td><td>Cittadino, social, immagini da ripubblicare</td></tr>
+<tr><td><a href="07-revista.html"><b>07 Revista</b></a></td><td>Magazine cartaceo: copertina, sommario, "spread" per tema</td><td>Domanda che resta fissa mentre scorrono le citazioni; tipografia serif gigante</td><td>Giornalista e lettura lunga; massima autorevolezza</td></tr>
+<tr><td><a href="08-stories.html"><b>08 Stories</b></a></td><td>Instagram: una story per tema, un frame per partito</td><td>Player a tutto schermo, avanzamento automatico, frecce, link diretto <code>#story-nucleares</code></td><td>Mobile, giovani, condivisione social</td></tr>
+<tr><td><a href="09-cronograma.html"><b>09 Cronograma</b></a></td><td>Data journalism: ogni punto è una dichiarazione nel tempo</td><td>Corsie per partito, forme diverse per voto, dichiarazione e programma, eventi chiave (apagón, guerra con l'Iran, convocatoria), filtro per tema</td><td>Giornalista: mostra i cambi di posizione come nessun altro concept</td></tr>
+<tr><td><a href="10-afinidad.html"><b>10 Afinidad</b></a></td><td>Rete e mappa di calore delle coincidenze tra partiti</td><td>Un dato nuovo calcolato dai nostri dati: "PSOE e Podemos coincidono in 6 su 6"; soglia minima di 3 domande per non sovra-interpretare</td><td>Titolo da articolo: "chi somiglia a chi sull'energia"</td></tr>
+</table>
+<p><img src="img/all-mobile-2.png" alt="I 5 concept su mobile" style="width:100%;border:1px solid var(--line);border-radius:10px"></p>
+<div class="box box--p"><b>Lettura UX.</b> Nessuno dei 5 è un hub completo: ognuno è un modo di <i>entrare</i> nei dati. I più forti come asset PR sono il <b>09 Cronograma</b> (rende visibile il nostro differenziatore, i cambi di posizione nel tempo) e il <b>10 Afinidad</b> (crea un dato nuovo, quindi una notizia). <b>08 Stories</b> è il formato migliore per i social. <b>06 Tira y afloja</b> ha l'impatto visivo più immediato. <b>07 Revista</b> dà autorevolezza, ma richiede molto scroll.</div>
+
+<h2>1. Chi apre la pagina e cosa cerca</h2>
+<table>
+<tr><th>Chi</th><th>Come arriva</th><th>Cosa vuole in 10 secondi</th><th>Cosa lo fa tornare</th></tr>
+<tr><td><b>Giornalista</b> (il target PR)</td><td>Google ("qué dice el PP de las nucleares"), il nostro pitch via email, un collega</td><td>Una risposta da citare ("il PP è a favore di…"), la fonte originale da verificare, la data</td><td><b>Novità</b>: cosa è cambiato da ieri, cambi di posizione, contraddizioni = notizie</td></tr>
+<tr><td><b>Cittadino o elettore</b></td><td>Google, social, l'articolo di un giornale che ci cita</td><td>"Cosa farebbe il partito X alla mia bolletta?", da confrontare con un altro partito</td><td>Il dibattito televisivo, la bolletta di gennaio</td></tr>
+<tr><td><b>Google</b></td><td>Crawl</td><td>Testo indicizzabile per tema e per partito, segnali di freschezza</td><td>Aggiornamenti frequenti, link dai media</td></tr>
+</table>
+<div class="box box--p"><b>La conseguenza:</b> il giornalista è il lettore che conta per il goal (abitudine a cercarci, backlink, notorietà), e per lui il valore è doppio: <b>la risposta</b> (chi dice cosa) e <b>la notizia</b> (cosa è cambiato). La v1 dava la prima e nascondeva la seconda.</div>
+
+<h2>2. Cosa non funziona nella v1 dell'hub</h2>
+<ol>
+<li><b>La matrice si legge male.</b> "Precio luz y gas → PP: <i>En contra</i>" sembra dire che il PP è contro il prezzo della luz. Il badge si riferisce a una proposta che compare solo più giù nella pagina. <b>Soluzione, applicata in tutte e 5 le proposte:</b> righe in forma di domanda ("¿Intervenir el mercado para topar el precio de la luz?") e risposte <b>Sí / No / Ambiguo</b>.</li>
+<li><b>Niente segnala la freschezza.</b> Solo una riga "Última actualización" in grigio. Sky e 29nov.es mettono in testa il tempo ("hace 10 minutos", "Faltan 52 días"). Senza un motivo per tornare non si crea l'abitudine.</li>
+<li><b>Il nostro differenziatore è sepolto.</b> I cambi di posizione, che nessun concorrente ha, sono piccoli popup dentro 66 card.</li>
+<li><b>I filtri sono doppi e pesanti.</b> 18 chip in due righe sopra una matrice che fa già da filtro.</li>
+<li><b>Lo scroll è ripetitivo.</b> 11 temi × 6 card di fila. Il "tema a tema" serve per la SEO, ma non deve essere il percorso principale.</li>
+<li><b>Manca un "come citarci".</b> È il gesto che vogliamo dal giornalista, e non lo facilitiamo.</li>
+</ol>
+
+<h2>3. La sequenza giusta (piramide invertida)</h2>
+<p>Una pagina di "dati politici" funziona come un articolo: prima la notizia, poi la risposta, poi le prove, poi l'approfondimento. Ogni livello è un clic in più, e chi si ferma al primo ha comunque avuto qualcosa da citare.</p>
+<div class="flow">
+<div><b>1 · Perché fidarmi, perché adesso</b><span>Nome, "Actualizado hoy", "Faltan 52 días", "137 datos verificados"</span></div>
+<div><b>2 · Cosa c'è di nuovo</b><span>Lo último (live) + Han cambiado de posición. È l'aggancio per il giornalista.</span></div>
+<div><b>3 · La risposta</b><span>La foto: 11 domande × 6 partiti, Sí/No. Si legge in 10 secondi.</span></div>
+<div><b>4 · Le prove</b><span>Clic su domanda o casella: citazione letterale, persona, data, fonte</span></div>
+<div><b>5 · Approfondire</b><span>Tema a tema, pagina partito, directo completo</span></div>
+<div><b>6 · Citare e correggere</b><span>"Copiar cita", metodologia, email correzioni</span></div>
+</div>
+<p><b>Principi trasversali:</b></p>
+<ul>
+<li><b>Progressive disclosure:</b> badge → citazione → timeline → fonte. Mai tutto insieme.</li>
+<li><b>La citazione è il titolo</b> (da Sky): il grassetto è sempre la frase letterale del politico, mai una nostra parafrasi. Questo protegge la neutralità.</li>
+<li><b>Il colore del partito identifica, non giudica</b> (da 29nov.es): un bordo o un pallino, mai uno sfondo pieno.</li>
+<li><b>Contenuto nel markup:</b> tutte le proposte tengono il testo nell'HTML anche quando è nascosto da tab o filtri, così Google lo indicizza.</li>
+<li><b>Mobile first:</b> il giornalista spesso apre la pagina dal telefono, dal link di un comunicato o da WhatsApp.</li>
+</ul>
+
+<h2>4. Le 5 proposte</h2>
+
+<section class="prop" id="p1"><header><h3>01 · Directo</h3><a class="btn" href="01-directo.html">Apri il prototipo</a></header>
+<p><b>Idea:</b> la diretta di SkyTG24 applicata all'energia. Barra "EN DIRECTO", box "En evidencia" fissato in alto, timeline verticale con tempo relativo, la citazione come titolo. A destra una colonna sticky "La foto de hoy" con una matrice a pallini che filtra la timeline.</p>
+<img src="img/01-directo-desktop.png" alt="Prototipo 01 Directo">
+<div class="cols"><ul class="pro"><li>È il formato che crea l'abitudine: si torna a vedere cosa è uscito.</li><li>La sensazione di "live" e il tempo relativo sono perfetti in campagna.</li><li>Ogni nuova riga è un potenziale pitch.</li></ul>
+<ul class="con"><li>Dopo il 29N la diretta "muore": la pagina dormiente sembra abbandonata.</li><li>Il confronto tra partiti è secondario, solo nella colonna.</li><li>Richiede aggiornamenti molto frequenti, altrimenti "EN DIRECTO" si ritorce contro.</li></ul></div>
+</section>
+
+<section class="prop" id="p2"><header><h3>02 · Rellena el hueco</h3><a class="btn" href="02-rellena-el-hueco.html">Apri il prototipo</a></header>
+<p><b>Idea:</b> l'hero di 29nov.es. "¿Qué dicen los partidos sobre <u>____</u>?" si completa scegliendo un tema; sotto compaiono la domanda e una colonna per ogni partito con risposta, citazione e fonte. C'è un selettore "Partidos que comparas".</p>
+<img src="img/02-rellena-el-hueco-desktop.png" alt="Prototipo 02 Rellena el hueco">
+<div class="cols"><ul class="pro"><li>Il più chiaro per il cittadino: una domanda, sei risposte.</li><li>L'hero rispecchia la query Google ("qué dicen los partidos sobre…").</li><li>Regge benissimo anche dopo le elezioni.</li></ul>
+<ul class="con"><li>Niente novità e niente "live": al giornalista manca il motivo per tornare.</li><li>Un tema alla volta: non si vede il quadro d'insieme.</li><li>È visivamente vicino a 29nov.es, quindi rischia di sembrare una copia.</li></ul></div>
+</section>
+
+<section class="prop" id="p3"><header><h3>03 · Marcador</h3><a class="btn" href="03-marcador.html">Apri il prototipo</a></header>
+<p><b>Idea:</b> il tabellone delle votazioni del Congreso. Fondo scuro, 11 domande per 6 partiti, dischi Sí/No/Ambiguo, barra di "reparto". Un clic su una casella apre sotto tutte le prove. In fondo, "Han cambiado de posición".</p>
+<img src="img/03-marcador-desktop.png" alt="Prototipo 03 Marcador">
+<div class="cols"><ul class="pro"><li>È l'immagine più forte e "screenshottabile": un giornalista o un social lo ripubblica così com'è, con il logo papernest.</li><li>Il quadro completo si vede in un colpo d'occhio.</li><li>Il ↻ sui cambi di posizione salta all'occhio.</li></ul>
+<ul class="con"><li>Il formato tabellone rende tutto un sì/no anche dove la realtà è sfumata.</li><li>Il fondo scuro stacca molto dal sito papernest.es: da verificare dentro il tema WordPress.</li><li>Senza clic non si vede nessuna citazione, quindi c'è poco testo above the fold.</li></ul></div>
+</section>
+
+<section class="prop" id="p4"><header><h3>04 · Cara a cara</h3><a class="btn" href="04-cara-a-cara.html">Apri il prototipo</a></header>
+<p><b>Idea:</b> scegli due partiti (default PSOE contro PP). Per ogni domanda ci sono le due risposte affiancate e un verdetto "Coinciden / Discrepan". In testa c'è il punteggio "Coinciden en X de Y".</p>
+<img src="img/04-cara-a-cara-desktop.png" alt="Prototipo 04 Cara a cara">
+<div class="cols"><ul class="pro"><li>Perfetto per le serate dei dibattiti televisivi: "Sánchez contro Feijóo sull'energia".</li><li>"Coinciden en 1 de 5" è un titolo pronto per un pezzo.</li><li>Formato molto condivisibile.</li></ul>
+<ul class="con"><li>Mostra solo 2 partiti alla volta: come hub generale è parziale.</li><li>Il default PSOE contro PP può sembrare un favore agli altri partiti, o uno sgarbo: va gestito.</li><li>Funziona meglio come modulo o pagina dedicata che come hub.</li></ul></div>
+</section>
+
+<section class="prop" id="p5"><header><h3>05 · Portada (ibrido)</h3><a class="btn" href="05-portada.html">Apri il prototipo</a></header>
+<p><b>Idea:</b> la sequenza del punto 3 applicata così com'è.
+<br>Barra in alto con "Actualizado hoy", il countdown e il numero di dati verificati.
+<br>Poi due box affiancati: <b>Lo último</b> (mini-diretta di 5 voci, al massimo 2 per partito) e <b>Han cambiado de posición</b> (4 card "prima → dopo").
+<br>Sotto la matrice a domande Sí/No, poi "Tema a tema" in accordion con le prove, il box "¿Eres periodista?" con "Copiar cita", e in fondo la diretta completa.</p>
+<img src="img/05-portada-desktop.png" alt="Prototipo 05 Portada">
+<div class="cols"><ul class="pro"><li>Soddisfa sia il giornalista (novità, cambi di posizione, citazione) sia il cittadino (la foto Sí/No).</li><li>Regge dopo il 29N: "Lo último" diventa "Últimas actualizaciones" senza cambiare struttura.</li><li>"Copiar cita" chiede al giornalista proprio il gesto che vogliamo.</li></ul>
+<ul class="con"><li>È la più densa: va curato il ritmo verticale.</li><li>Ha meno "effetto wow" del Marcador o del Directo.</li><li>Ha più blocchi da tenere aggiornati.</li></ul></div>
+</section>
+
+<h2>5. Confronto</h2>
+<div class="scroll"><table>
+<tr><th>Criterio</th><th class="c">01 Directo</th><th class="c">02 Hueco</th><th class="c">03 Marcador</th><th class="c">04 Cara a cara</th><th class="c">05 Portada</th></tr>
+<tr><td>Motivo per tornare (abitudine del giornalista)</td><td class="c">●●●</td><td class="c">●</td><td class="c">●●</td><td class="c">●●</td><td class="c">●●●</td></tr>
+<tr><td>Risposta in 10 secondi</td><td class="c">●●</td><td class="c">●●●</td><td class="c">●●●</td><td class="c">●●</td><td class="c">●●●</td></tr>
+<tr><td>Valorizza i cambi di posizione</td><td class="c">●</td><td class="c">●</td><td class="c">●●●</td><td class="c">●</td><td class="c">●●●</td></tr>
+<tr><td>Facilità di citare / ripubblicare</td><td class="c">●●</td><td class="c">●●</td><td class="c">●●●</td><td class="c">●●●</td><td class="c">●●●</td></tr>
+<tr><td>Vita dopo il 29N</td><td class="c">●</td><td class="c">●●●</td><td class="c">●●</td><td class="c">●●</td><td class="c">●●●</td></tr>
+<tr><td>SEO (testo per tema nel markup)</td><td class="c">●●</td><td class="c">●●●</td><td class="c">●●</td><td class="c">●●</td><td class="c">●●●</td></tr>
+<tr><td>Carico di manutenzione</td><td class="c">alto</td><td class="c">basso</td><td class="c">basso</td><td class="c">basso</td><td class="c">medio</td></tr>
+</table></div>
+
+<div class="reco">
+<span class="tag">Raccomandazione</span>
+<h3 style="margin-top:4px">05 Portada come hub, più due moduli presi dalle altre</h3>
+<ul>
+<li><b>Hub = 05 Portada.</b> È l'unica proposta che segue la sequenza novità → risposta → prove → approfondimento senza sacrificare nessuno dei due lettori.</li>
+<li><b>Dal 03 Marcador prendere la matrice in versione "tabellone"</b> come stile della "foto", con dischi e ↻ ben visibili, ma su fondo chiaro. Esportarla anche come <b>immagine PNG per il kit stampa</b>: è il formato che un giornalista ripubblica.</li>
+<li><b>Dal 01 Directo prendere la timeline completa</b> in fondo alla Portada, con i filtri.</li>
+<li><b>04 Cara a cara come pagina o modulo separato</b>, da spingere nelle serate dei dibattiti (sono un gancio PR a sé).</li>
+<li>02 Hueco non serve come hub, ma la sua logica "una domanda, sei risposte" è già quella delle sezioni "Tema a tema".</li>
+</ul>
+</div>
+
+<h2>6. Decisioni aperte per il team</h2>
+<ol>
+<li><b>Colori Sí/No.</b> Ho usato verde, rosso e giallo, come il tabellone delle votazioni del Congreso: è una convenzione nota e leggibile in un istante. Il rischio è che verde e rosso si leggano come "buono" e "cattivo". L'alternativa neutra è una scala del viola primario con due tonalità più il grigio, meno immediata.</li>
+<li><b>Colori dei partiti:</b> sono approssimativi e vanno verificati. Se preferite la massima neutralità si possono togliere, lasciando solo il nome del partito.</li>
+<li><b>Nuovo campo dati "titular".</b> 29nov.es mette sopra ogni citazione una frase semplice ("Reducir los impuestos sobre la luz"). Per i voti renderebbe la diretta molto più leggibile del testo della mozione. Costa una riga in più per ogni dichiarazione nella skill di aggiornamento.</li>
+<li><b>"EN DIRECTO" sì o no.</b> È forte, ma è una promessa: va mantenuta con aggiornamenti almeno ogni 2-3 giorni in campagna, altrimenti è meglio "Actualizado hoy".</li>
+<li><b>Widget embed per i media</b> (fase 2): un iframe della "foto" che i giornali inseriscono nei loro articoli, con un link a noi. È il backlink più naturale che esista.</li>
+</ol>
+
+<h2>Mobile</h2>
+<p>Da sinistra: 01 Directo, 02 Hueco, 03 Marcador, 04 Cara a cara, 05 Portada (375px).</p>
+<img src="img/all-mobile.png" alt="Le 5 proposte su mobile" style="width:100%;border:1px solid var(--line);border-radius:10px">
+
+<p style="margin:48px 0;color:var(--mute);font-size:13px">I prototipi sono generati da <code>scripts/hub_proposals.py</code> con i dati reali di <code>data/statements/</code>. Sono standalone e non vanno incollati in WordPress: una volta scelta la direzione, il layout va portato in <code>build.py</code> con i vincoli WP (prefisso classi, JS con addEventListener).</p>
+</main>
+</body>
+</html>
